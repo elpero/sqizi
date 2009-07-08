@@ -2,8 +2,219 @@
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
     <list default="true" name="Default" comment="imports optimization">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-client/src/Sqizi.mxml" afterPath="$PROJECT_DIR$/flex-client/src/Sqizi.mxml" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\flex\services\ArticlesServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-lang-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\GetArticleImagesEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\DisplayAllCategoriesEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\NewArticleEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\flex\services\LoginServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\helper\WizardStep.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\tld\fmt-1.1.2.tld" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\flex\services\CompanyServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\ArticlesDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\CompanyDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-aop-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\flex-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\blazeds-common-3.2.0.3978.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\Company.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\CompanyDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\LoginEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\build.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\Article.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\DisplaySpecificCategoryEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\Article.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\CompanyDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\postgresql-8.3-603.jdbc4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\log4j-1.2.15.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\ArticleService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\Company.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\controller\CompanyController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\activation-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.flex.services.LoginServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\ArticleCategoryTree.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\ArticlesServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\login\LoginView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\war\work\webapp-cache.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\sqlMaps\articles.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-web-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\xalan-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\sqlMaps\company.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.services.ImageServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.dao.ImageDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\ArticleCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\delegate\LoginDelegate.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\backport-util-concurrent-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\ibatis-sqlmap-2.3.4.726.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\SpecificCateogryView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\spring-mvc-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\services\ImageServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\LoginServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-jdbc-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\air-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\CompanyService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.dao.ArticlesDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\services\ImageServiceImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\addarticlewizard\DefineArticleMainDataView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\libraries\playerglobal.swc" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\Sqizi.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\standard-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\addarticlewizard\Summary.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.flex.services.ArticlesServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\CompanyService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\flex\services-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-webmvc-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\services\ImageService.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqizi.iws" afterPath="$PROJECT_DIR$/sqizi.iws" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\UserDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\cglib-nodep-2.1_3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\MainView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\sqlMaps\images.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\flex-client-1.0.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\LogOutEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\springmvc\UploadServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-tx-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\AddArticleEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\User.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\CategoryView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\CategoriesCollectionView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\ImageDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\helper\CategoryTreeDataDescriptor.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\CompanyDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\LoadArticleEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\addarticlewizard\PlaceImages.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\ArticleImage.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\CompanyServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\blazeds-opt-3.2.0.3978.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\flex\services-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\sqlMaps\company.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\LoginServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\ArticleImage.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\ArticleThumbnail.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\helper\CategoryTreeMenuDescriptor.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\delegate\ArticleDelegate.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-pool-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\flex-client-1.0-en_US.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\macFonts.ser" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\junit-4.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\blazeds-remoting-3.2.0.3978.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-collections-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\jackson-core-asl-1.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\mail-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\UserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\uicomponents\MyText.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.dao.CompanyDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\sqlMaps\users.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\flex-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\ArticleThumbnail.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\helper\CategoryLinksRenderer.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\LoginService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\dao\ImageDaoImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\addarticlewizard\AddArticleView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.dao.ArticlesDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\xml-apis-1.3.04.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\delegate\CompanyDelegate.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\controller\ArticleController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\spring-mvc-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\CompanyServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\ArticlesDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.flex.services.CompanyServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.services.ImageServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\sqlMaps\articles.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\ArticlesDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\ApplicationContext.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\dao\ArticlesDaoImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\model\UserModel.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\blazeds-core-3.2.0.3978.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\UpdateArticleEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\Image.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\jmxtools-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\flex\services-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\AddCategoryView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\ImageDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\ImageDao.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-beans-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\ArticlesServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\addarticlewizard\ImageUpload.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.dao.UserDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-context-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.dao.UserDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\flex-client-1.0.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\winFonts.ser" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\services\ImageServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-httpclient-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\UserDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\User.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.dao.ImageDaoImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-fileupload-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\GetCompanyDataEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\application.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\tld\c-1.1.2.tld" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-security-core-2.0.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp-1.0.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\support\PropertiesSupplier.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\dao\CompanyDaoImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\serializer-2.7.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\event\AddCategoryEvent.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\ArticlesMainView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.flex.services.LoginServiceImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\model\CompanyModel.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-orm-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\jmxri-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\ArticleCategory.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\dao\ArticlesDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\flex-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\sqlMaps\users.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.flex.services.CompanyServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\localFonts.ser" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\flex-client-debug\Sqizi.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\Sqizi.swf" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\ImageTO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\Article.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\flex\services\LoginService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\support\PropertiesSupplier.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\flash-unicode-table.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-codec-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\sql-map-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\controller\LoginController.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\view\articles\ArticleView.mxml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\sqlMaps\images.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-context-support-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-core-2.5.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\services\ImageService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-dbcp-1.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\springmvc\UploadServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\configs\mxml-manifest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\commons-io-1.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\model\ArticleModel.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\spring-flex-1.0.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\Company.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\ArticleThumbnail.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\blazeds-proxy-3.2.0.3978.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\no.sqizi.webapp.flex.services.ArticlesServiceImplTest.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\dao\ImageDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\no\sqizi\flexclient\domain\ArticleCategoryTreeElement.as" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\sql-map-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\lib\jms-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\flex-client-1.0.incr" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\test-classes\no\sqizi\webapp\dao\UserDaoImplTest.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\classes\no\sqizi\webapp\domain\ImageTO.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\domain\ArticleCategory.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\surefire-reports\TEST-no.sqizi.webapp.dao.CompanyDaoImplTest.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\webapp\target\webapp.war\WEB-INF\classes\no\sqizi\webapp\flex\services\ArticleService.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\target\classes\fonts.ser" afterPath="" />
     </list>
     <ignored path="sqizi.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -119,10 +330,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="company.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="27" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
+            <state line="19" column="96" selection-start="914" selection-end="914" vertical-scroll-proportion="0.34625322">
               <folding />
             </state>
           </provider>
@@ -155,10 +366,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Sqizi.mxml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Sqizi.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flex-client/src/Sqizi.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="74" selection-start="541" selection-end="541" vertical-scroll-proportion="0.37087378">
+            <state line="19" column="43" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -215,6 +426,13 @@
     <FindUsagesManager>
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <array>
+        <option value="elpero" />
+      </array>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -364,6 +582,126 @@
   </component>
   <component name="ProjectPane">
     <subPane>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="webapp" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="resources" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqlMaps" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
       <PATH>
         <PATH_ELEMENT>
           <option name="myItemId" value="sqizi" />
@@ -1016,7 +1354,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1688" height="968" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -1026,17 +1364,17 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2797688" sideWeight="0.7775061" order="3" side_tool="false" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="V1Integration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2965599" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28422982" sideWeight="0.27520758" order="1" side_tool="true" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18826406" sideWeight="0.6619217" order="3" side_tool="false" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23960881" sideWeight="0.6619217" order="0" side_tool="false" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18826406" sideWeight="0.510083" order="3" side_tool="false" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23960881" sideWeight="0.510083" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48161328" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48161328" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Tapestry" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
@@ -1054,7 +1392,7 @@
     <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="imports optimization" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
@@ -1065,6 +1403,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="imports optimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2361,13 +2700,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="27" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex/services-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -2458,7 +2790,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/Sqizi.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="74" selection-start="541" selection-end="541" vertical-scroll-proportion="0.37087378">
+        <state line="19" column="43" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="96" selection-start="914" selection-end="914" vertical-scroll-proportion="0.34625322">
           <folding />
         </state>
       </provider>
