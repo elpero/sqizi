@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" implements="no.sqizi.flexclient.helper.WizardStep"
+         creationComplete="handleCreationComplete()">
+    <mx:HBox width="100%">
+        <mx:Text text="Select image to upload"></mx:Text>
+        <mx:Button label="Select..." click="showFileSelect()"/>
+    </mx:HBox>
+    <mx:List id="selectedFilesList" dataProvider="{_selectedFiles}" labelField="name" width="100%"/>
+    <mx:Button id="deleteButton" label="Delete" click="removeSelectedFiles()"
+               enabled="{selectedFilesList.selectedItems.length > 0}"/>
+    <mx:Button label="Upload" click="upload()"/>
+    <mx:Tile>
+        <mx:Repeater id="imageRep" dataProvider="{articleModel.images}">
+            <mx:Image source="{imageRep.currentItem.thumbnailPath}"/>
+        </mx:Repeater>
+    </mx:Tile>
+
+
+    <mx:Script><![CDATA[
+        import flash.events.Event;
+
+        import mx.collections.ArrayCollection;
+        import mx.managers.PopUpManager;
+
+        import no.sqizi.flexclient.domain.Article;
+        import no.sqizi.flexclient.event.AddArticleEvent;
+        import no.sqizi.flexclient.event.GetArticleImagesEvent;
+        import no.sqizi.flexclient.model.ArticleModel;
+        import no.sqizi.flexclient.model.CompanyModel;
+
+        import org.swizframework.Swiz;
+
+
+        private function updateImageList(e:Event = null):void {
+            Swiz.dispatchEvent(new GetArticleImagesEvent(article.id));
+        }
+
+        private function startUpdateImagesTimer():void {
+            var t:Timer = new Timer(5000,1);
+            t.addEventListener(TimerEvent.TIMER, updateImageList)
+            t.start();
+        }
+
+        private function handleCreationComplete():void {
+            startUpdateImagesTimer()
+        }
+
+        private function removeSelectedFiles():void {
+            for each (var i:int in selectedFilesList.selectedIndices) {
+                _selectedFiles.removeItemAt(i);
+            }
+        }
+
+        private var _uploadTarget:String = "spring/upload"
+
+        private function handleComplete(event:Event = null):void {
+        }
+
+        private function handleIOError(e:IOErrorEvent):void {
+        }
+
+        private function upload():void {
+            for each (var f:FileReference in _selectedFiles) {
+                f.addEventListener(Event.COMPLETE, handleComplete);
+                f.addEventListener(IOErrorEvent.IO_ERROR, handleIOError);
+                var vars:URLVariables = new URLVariables();
+                vars.action = "upload";
+                vars.fileName = f.name;
+                vars.articleId = _article.id;
+                var urlRequest:URLRequest = new URLRequest(_uploadTarget);
+                urlRequest.data = vars;
+                f.upload(urlRequest, "file", false);
+            }
+            _selectedFiles.removeAll();
+            startUpdateImagesTimer();
+
+        }
+
+        private var _refAddFiles:FileReferenceList;
+        private var _selectedFiles:ArrayCollection = new ArrayCollection();
+
+        private function fileWithTheSameNameAlreadySelected(name:String):Boolean {
+            for each (var f:FileReference in _selectedFiles) {
+                if (f.name == name) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        private function removeFileWithName(name:String):void {
+            var fileToRemove:FileReference = null;
+            for each (var f:FileReference in _selectedFiles) {
+                if (f.name == name) {
+                    fileToRemove = f;
+                    break;
+                }
+            }
+            if (fileToRemove != null) {
+                _selectedFiles.removeItemAt(_selectedFiles.getItemIndex(fileToRemove));
+            }
+
+        }
+
+
+        private function onSelectFile(event:Event):void {
+            for each (var file:FileReference in _refAddFiles.fileList) {
+                if (fileWithTheSameNameAlreadySelected(file.name)) {
+                    removeFileWithName(file.name);
+                }
+                _selectedFiles.addItem(file);
+            }
+
+        }
+
+        private function showFileSelect():void {
+            _refAddFiles = new FileReferenceList();
+            _refAddFiles.addEventListener(Event.SELECT, onSelectFile);
+            _refAddFiles.browse([new FileFilter("Images (*.jpg, *.jpeg, *.gif, *.png)", "*.jpg; *.jpeg; *.gif; *.png")]);
+        }
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+        [Autowire(bean="articleModel")]
+        [Bindable]
+        public var articleModel:ArticleModel;
+
+
+        public function moveToTheNextView():void {
+            Swiz.dispatchEvent(new Event(AddArticleView.READY_TO_MOVE_NEXT_MESSAGE));
+        }
+
+
+        private var _article:Article = null;
+
+        [Bindable]
+        public function get article():Article {
+            return _article;
+        }
+
+        public function set article(value:Article):void {
+            _article = value;
+        }
+
+        ]]></mx:Script>
+</mx:VBox>

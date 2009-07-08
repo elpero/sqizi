@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+<mx:LinkButton xmlns:mx="http://www.adobe.com/2006/mxml"
+               label="{data.name}" 
+               toolTip="{data.description}"
+               click="Swiz.dispatchEvent(new DisplaySpecificCategoryEvent(data.id))">
+    <mx:Script><![CDATA[
+        import no.sqizi.flexclient.event.DisplaySpecificCategoryEvent;
+
+        import org.swizframework.Swiz;
+        ]]></mx:Script>
+</mx:LinkButton>

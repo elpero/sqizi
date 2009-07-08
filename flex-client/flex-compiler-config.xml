@@ -1,0 +1,10 @@
+<flex-config xmlns="http://www.adobe.com/2006/flex-config">
+  <compiler>
+    <debug>true</debug>
+    <source-path><path-element>src/main/flex</path-element></source-path>
+  </compiler>
+  <file-specs>
+    <path-element>flex-client/src/main/flex/HelloWorld.mxml</path-element>
+  </file-specs>
+  <output>C:/sqizi/flex-client/target/classes/flex.swf</output>
+</flex-config>

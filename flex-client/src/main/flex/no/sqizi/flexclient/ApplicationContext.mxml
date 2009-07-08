@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BeanLoader xmlns="org.swizframework.util.*"
+            xmlns:controller="no.sqizi.flexclient.controller.*"
+            xmlns:delegate="no.sqizi.flexclient.delegate.*"
+            xmlns:model="no.sqizi.flexclient.model.*"
+            xmlns:mx="http://www.adobe.com/2006/mxml">
+
+    <DynamicChannelSet id="myAmfChannel">
+        <serverPort>8080</serverPort>
+        <contextRoot>/webapp</contextRoot>
+    </DynamicChannelSet>
+
+    
+
+    <mx:RemoteObject id="loginService">
+        <mx:channelSet>{myAmfChannel}</mx:channelSet>
+        <mx:destination>loginService</mx:destination>
+    </mx:RemoteObject>
+
+    <mx:RemoteObject id="companyService">
+        <mx:channelSet>{myAmfChannel}</mx:channelSet>
+        <mx:destination>companyService</mx:destination>
+    </mx:RemoteObject>
+
+     <mx:RemoteObject id="articleService">
+        <mx:channelSet>{myAmfChannel}</mx:channelSet>
+        <mx:destination>articleService</mx:destination>
+    </mx:RemoteObject>
+
+    <model:UserModel id="userModel"/>
+    <model:CompanyModel id="companyModel"/>
+    <model:ArticleModel id="articleModel"/>
+
+    <controller:LoginController id="loginController"/>
+    <controller:CompanyController id="companyController"/>
+    <controller:ArticleController id="articleController"/>
+
+    <delegate:LoginDelegate id="loginDelegate"/>
+    <delegate:CompanyDelegate id="companyDelegate"/>
+    <delegate:ArticleDelegate id="articleDelegate"/>
+
+</BeanLoader>

@@ -1,0 +1,16 @@
+TextArea{
+    fontFamily: myFontFamily;
+}
+Text{
+    fontFamily: myFontFamily;
+}
+Label{
+    fontFamily: myFontFamily;
+}
+
+@font-face {
+    src: url("./embedded/arial.ttf");
+    fontFamily: myFontFamily;
+    advancedAntiAliasing: true;
+
+}

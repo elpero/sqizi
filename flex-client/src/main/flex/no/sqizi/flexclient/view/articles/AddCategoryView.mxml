@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<mx:TitleWindow title="Add Category"
+                close="PopUpManager.removePopUp(this)"
+                showCloseButton="true"
+                xmlns:mx="http://www.adobe.com/2006/mxml">
+
+    <mx:VBox>
+        <mx:Form>
+            <mx:FormItem label="Name:">
+                <mx:TextInput id="categoryName"></mx:TextInput>
+            </mx:FormItem>
+            <mx:FormItem label="Description:">
+                <mx:TextArea id="categoryDescription"></mx:TextArea>
+            </mx:FormItem>
+            <mx:FormItem label="Parent:">
+                <mx:Tree id="categoryParent"
+                         alpha="1"
+                         labelField="name"
+                         dataProvider="{companyModel.currentCompanyData.getCategoryTree().roots}"
+                         dataDescriptor="{new CategoryTreeDataDescriptor()}"/>
+                <mx:CheckBox label="Root" id="isRootCat"/>
+            </mx:FormItem>
+        </mx:Form>
+        <mx:Button id="createCategoryButton" click="createCategory()"/>
+    </mx:VBox>
+
+
+    <mx:Script><![CDATA[
+        import mx.managers.PopUpManager;
+
+        import no.sqizi.flexclient.event.AddCategoryEvent;
+        import no.sqizi.flexclient.helper.CategoryTreeDataDescriptor;
+        import no.sqizi.flexclient.model.CompanyModel;
+
+        import org.swizframework.Swiz;
+
+        private function createCategory():void {
+            var e:AddCategoryEvent = new AddCategoryEvent(
+                    categoryName.text,
+                    categoryDescription.text,
+                    isRootCat.selected ? 0 : categoryParent.selectedItem.id );
+
+            Swiz.dispatchEvent(e);
+            PopUpManager.removePopUp(this);
+            
+        }
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+
+        ]]></mx:Script>
+</mx:TitleWindow>

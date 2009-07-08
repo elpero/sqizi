@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
+         xmlns:articles="no.sqizi.flexclient.view.articles.*"
+         width="100%" height="100%"
+         showEffect="{showEffect}"
+         hideEffect="{hideEffect}"
+        creationComplete="handleCreationComplete()">
+
+    <mx:Blur id="showEffect" blurXFrom="40" blurXTo="0" blurYFrom="40" blurYTo="0" duration="1000"/>
+    <mx:Blur id="hideEffect" blurXFrom="0" blurXTo="40" blurYFrom="0" blurYTo="40" duration="1000"/>
+    
+    <mx:VBox width="100%" horizontalAlign="right">
+        <mx:LinkButton id="logOutButton" label="Log Out" click="Swiz.dispatchEvent(new LogOutEvent())"/>
+    </mx:VBox>
+    <mx:Text text="Welcome, {userModel.loggedInUser.firstName}"/>
+    <articles:ArticlesMainView width="100%"/>
+
+
+    <mx:Script><![CDATA[
+        import mx.binding.utils.BindingUtils;
+
+        import no.sqizi.flexclient.domain.User;
+        import no.sqizi.flexclient.event.GetCompanyDataEvent;
+        import no.sqizi.flexclient.event.LogOutEvent;
+        import no.sqizi.flexclient.model.CompanyModel;
+        import no.sqizi.flexclient.model.UserModel;
+
+        import org.swizframework.Swiz;
+
+        private function handleCreationComplete():void {
+            if (userModel.loggedInUser != null) {
+                Swiz.dispatchEvent(new GetCompanyDataEvent(userModel.loggedInUser.companyName));
+            }
+            BindingUtils.bindSetter(handleLoggedInUserChange, userModel, "loggedInUser");
+        }
+
+
+        private function handleLoggedInUserChange(user:User = null):void {
+            Swiz.dispatchEvent(new GetCompanyDataEvent(userModel.loggedInUser.companyName));
+
+        }
+
+        [Autowire(bean="userModel")]
+        [Bindable]
+        public var userModel:UserModel;
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+
+        ]]></mx:Script>
+</mx:VBox>

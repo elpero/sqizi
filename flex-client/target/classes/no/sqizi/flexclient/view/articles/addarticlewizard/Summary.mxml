@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" implements="no.sqizi.flexclient.helper.WizardStep">
+    <mx:Text text="SUMMARY" fontSize="20"/>
+    <mx:Text text="{article.title}" fontSize="20"/>
+    <!--<mx:Text text="created by {article.author.firstName} {article.author.lastName} on {article.date}" fontSize="8" fontStyle="italic"/>-->
+    <mx:Spacer height="10"/>
+
+    <mx:Text width="100%" height="100%" id="content" htmlText="{article.content}"/>
+
+    <mx:Script><![CDATA[
+        import no.sqizi.flexclient.domain.Article;
+
+        import no.sqizi.flexclient.event.UpdateArticleEvent;
+
+        import org.swizframework.Swiz;
+
+
+        public function moveToTheNextView():void {
+            Swiz.dispatchEvent(new UpdateArticleEvent(article.id, article.title, null, article.content, article.author, null))
+            Swiz.dispatchEvent(new Event(AddArticleView.READY_TO_MOVE_NEXT_MESSAGE));
+        }
+        private var _article:Article = null;
+
+        [Bindable]
+        public function get article():Article {
+            return _article;
+        }
+
+        public function set article(value:Article):void {
+            _article = value;
+        }
+
+        ]]></mx:Script>
+</mx:VBox>

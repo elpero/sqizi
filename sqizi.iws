@@ -1,0 +1,2526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project relativePaths="false" version="4">
+  <component name="ChangeListManager">
+    <list default="true" name="Default" comment="" />
+    <ignored path="sqizi.iws" />
+    <ignored path=".idea/workspace.xml" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/sqizi$ImageDaoImplTest.ic" NAME="ImageDaoImplTest Coverage Results" MODIFIED="1246472027703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$ArticlesServiceImplTest.ic" NAME="ArticlesServiceImplTest Coverage Results" MODIFIED="1246474154765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$no_sqizi_webapp_flex_services_in_sqizi.ic" NAME="no.sqizi.webapp.flex.services in sqizi Coverage Results" MODIFIED="1246313412968" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$All_in_sqizi.ic" NAME="All in sqizi Coverage Results" MODIFIED="1246313203312" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$all_tests.ic" NAME="all tests Coverage Results" MODIFIED="1246476557687" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$ArticlesServiceImplTest_testGetArticleImages.ic" NAME="ArticlesServiceImplTest.testGetArticleImages Coverage Results" MODIFIED="1246473842937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$ArticlesDaoImplTest_testGetArticleImages.ic" NAME="ArticlesDaoImplTest.testGetArticleImages Coverage Results" MODIFIED="1246471441390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$no_sqizi_webapp_dao_in_sqizi.ic" NAME="no.sqizi.webapp.dao in sqizi Coverage Results" MODIFIED="1246313409765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$ImageServiceImplTest_testSaveArticleImage.ic" NAME="ImageServiceImplTest.testSaveArticleImage Coverage Results" MODIFIED="1246476547812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$no_sqizi_webapp_in_sqizi.ic" NAME="no.sqizi.webapp in sqizi Coverage Results" MODIFIED="1246313384437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sqizi$ArticlesDaoImplTest.ic" NAME="ArticlesDaoImplTest Coverage Results" MODIFIED="1246471450625" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>no.sqizi.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+    <option name="REVERSE_PATCH" value="false" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties>
+      <property name="line_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_flattenPackages" value="true" />
+      <property name="method_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_flattenPackages" value="true" />
+      <property name="exception_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_viewId" value="TABLE" />
+      <property name="field_breakpoints_groupByMethods" value="false" />
+      <property name="line_breakpoints_flattenPackages" value="true" />
+      <property name="field_breakpoints_groupByClasses" value="true" />
+      <property name="method_breakpoints_groupByClasses" value="true" />
+      <property name="exception_breakpoints_viewId" value="TABLE" />
+      <property name="exception_breakpoints_groupByClasses" value="true" />
+      <property name="field_breakpoints_viewId" value="TABLE" />
+      <property name="method_breakpoints_groupByMethods" value="false" />
+    </ui_properties>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="sqizi" />
+  </component>
+  <component name="FileColors" enabled="false" enabledForTabs="false" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flex-compiler-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/flex-compiler-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="images.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/images.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="78" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="27" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services-config.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex/services-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flex-client_Flex_temp_flex_config.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flex-client_Flex_temp_flex_config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="65" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.41379312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ImageTO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ImageTO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleThumbnail.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleThumbnail.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="52" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/webapp/src/main/webapp/web.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sql-maps-config.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/Sqizi_flex4.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/HelloWorldService.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/Sqizi3.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/flex/services-config.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/resources/services-config.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controllers/HelloWorldController.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/HelloDelegate.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/applicationContext.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/User.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/HelloWorldController.as" />
+        <option value="$PROJECT_DIR$/flex-client/pom.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LoginEvent.as" />
+        <option value="$PROJECT_DIR$/flex-client_Flex_temp_flex_config.xml" />
+        <option value="$PROJECT_DIR$/flex-client/flex-client_config.xml" />
+        <option value="$PROJECT_DIR$/flex-client_config.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/LoginDelegate.as" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/UserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/services/LoginServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/UserDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/Company.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleThumbnail.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/users.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/CompanyDaoImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/CompanyServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/CompanyDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/services/CompanyServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleCategory.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/CompanyDelegate.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetCompanyDataEvent.as" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/User.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/CompanyController.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/UserModel.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/User.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategory.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleTileSet.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LogoutEvent.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/Sqizi.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleThumbnail.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LoadArticleEvent.as" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/flex-servlet.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/Article.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/ApplicationContext.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/CompanyModel.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/ArticleModel.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTreeElement.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/LoginController.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Company.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/MyMenuBar.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/MyMenuBarItemRenderer.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryLinksRenderer.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/AddCategoryEvent.as" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDaoImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ArticlesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/services/ArticlesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/ArticleDelegate.as" />
+        <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ArticlesDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/ArticleController.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoriesCollectionView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddArticleView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTree.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/file/UploadProgress.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/spring-mvc-servlet.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/Image.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ImageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ImageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/file/ImageUpload.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Article.as" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sql-map-config.xml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleImage.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/springmvc/UploadServlet.java" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/images.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenEventsHandler">
+    <option name="beforeRun">
+      <map>
+        <entry key="JBoss Server#webapp">
+          <value>
+            <MavenTask>
+              <option name="pomPath" value="$PROJECT_DIR$/pom.xml" />
+              <option name="goal" value="install" />
+            </MavenTask>
+          </value>
+        </entry>
+        <entry key="Tomcat Server#sqizi on tomcat">
+          <value>
+            <MavenTask>
+              <option name="pomPath" value="$PROJECT_DIR$/pom.xml" />
+              <option name="goal" value="install" />
+            </MavenTask>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="ModuleEditorState">
+    <option name="LAST_EDITED_MODULE_NAME" />
+    <option name="LAST_EDITED_TAB_NAME" />
+  </component>
+  <component name="PackagesPane">
+    <subPane />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectPane">
+    <subPane>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </subPane>
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="0.5" version="1" splitterProportion="0.5">
+      <flattenPackages ProjectPane="false" />
+      <showMembers ProjectPane="true" />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <showStructure ProjectPane="false" />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType ProjectPane="false" />
+    </navigator>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="RunManagerConfig.showSettingsBeforeRunnig" value="true" />
+    <property name="options.lastSelected" value="errors" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="no.sqizi.webapp.services" />
+      <recent name="no.sqizi.webapp.dao" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="no.sqizi.webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Flex.flex-client">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myCoreSettings">
+          <MavenGeneralSettings>
+            <option name="checksumPolicy" value="fail" />
+            <option name="failureBehavior" value="fail-fast" />
+            <option name="localRepository" value="" />
+            <option name="mavenHome" value="" />
+            <option name="mavenSettingsFile" value="" />
+            <option name="nonRecursive" value="false" />
+            <option name="pluginUpdatePolicy" value="false" />
+            <option name="printErrorStackTraces" value="false" />
+            <option name="resourceFilteringEnabled" value="true" />
+            <option name="usePluginRegistry" value="false" />
+            <option name="workOffline" value="false" />
+          </MavenGeneralSettings>
+        </option>
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="jreName" value="1.6 sun" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JBossConfiguration" factoryName="Local">
+      <JAVAEE_FACET FACET_ID="webapp/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <option name="SERVER" value="" />
+      <option name="USERNAME" value="" />
+      <option name="PASSWORD" value="" />
+      <predefined_log_file id="JBoss" enabled="true" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="FlexRunConfigurationType" factoryName="Flex" module_name="" run_mode="HtmlOrSwfFile" html_or_swf_file_path="" url_to_launch="http://" air_descriptor_path="">
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG" enabled="false" merge="false" runner="emma">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application" enabled="false" merge="false" runner="emma">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit" enabled="true" merge="false" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="no.sqizi.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <module name="sqizi" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <JAVAEE_FACET FACET_ID="webapp/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/" />
+        <option name="DEPLOY" value="false" />
+      </JAVAEE_FACET>
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="_sqizi31c3bdd0" />
+      </server-settings>
+      <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+      <option name="BASE_DIRECTORY_NAME" value="_sqizi31c3bdd0" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3644" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="_sqizi31c3bdd0" />
+      </server-settings>
+      <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+      <option name="BASE_DIRECTORY_NAME" value="_sqizi31c3bdd0" />
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3645" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="flex-client" type="FlexRunConfigurationType" factoryName="Flex" module_name="flex-client" run_mode="Url" html_or_swf_file_path="http://localhost:8080/webapp/Sqizi.swf" url_to_launch="http://localhost:8080/webapp/Sqizi.swf" air_descriptor_path="">
+      <RunnerSettings RunnerId="FlexDebugRunner" />
+      <RunnerSettings RunnerId="FlexRunner" />
+      <ConfigurationWrapper RunnerId="FlexDebugRunner" />
+      <ConfigurationWrapper RunnerId="FlexRunner" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="true" />
+      </method>
+    </configuration>
+    <configuration default="false" name="webapp" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 4.2.3.GA">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webapp/Sqizi.swf" />
+      <JAVAEE_FACET FACET_ID="webapp/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="DEPLOY" value="true" />
+      </JAVAEE_FACET>
+      <server-settings>
+        <option name="SERVER" value="default" />
+        <option name="USERNAME" value="" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <option name="SERVER" value="default" />
+      <option name="USERNAME" value="" />
+      <option name="PASSWORD" value="" />
+      <predefined_log_file id="JBoss" enabled="true" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1609" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../bin/run.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../bin/shutdown.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" -s jnp://localhost:0 -S" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../bin/run.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../bin/shutdown.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" -s jnp://localhost:0 -S" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="all tests" type="JUnit" factoryName="JUnit" enabled="true" merge="false" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="no.sqizi.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <module name="webapp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="no.sqizi.webapp" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/webapp" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="3710" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="ImageServiceImplTest.testSaveArticleImage" type="JUnit" factoryName="JUnit" enabled="true" merge="false" runner="idea">
+      <pattern>
+        <option name="PATTERN" value="no.sqizi.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+      <module name="webapp" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="PACKAGE_NAME" value="no.sqizi.webapp.services" />
+      <option name="MAIN_CLASS_NAME" value="no.sqizi.webapp.services.ImageServiceImplTest" />
+      <option name="METHOD_NAME" value="testSaveArticleImage" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ADDITIONAL_CLASS_PATH" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4023" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <configuration default="false" name="sqizi on tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.20">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/webapp/Sqizi.swf" />
+      <JAVAEE_FACET FACET_ID="webapp/web/Web" DEPLOYMENT_SOURCE_NAME="exploded">
+        <option name="CONTEXT_PATH" value="/webapp" />
+        <option name="DEPLOY" value="true" />
+      </JAVAEE_FACET>
+      <server-settings>
+        <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_sqizi31c3bdd0" />
+      </server-settings>
+      <option name="DEPLOY_TOMCAT_MANAGER" value="false" />
+      <option name="BASE_DIRECTORY_NAME" value="Unnamed_sqizi31c3bdd0" />
+      <log_file path="$PROJECT_DIR$/../Documents and Settings/sg0206005/.IntelliJIdea8x/system/tomcat/Unnamed_sqizi31c3bdd0/logs/localhost*" checked="true" skipped="true" show_all="false" alias="Tomcat Log" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="1414" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../apache-tomcat-6.0.20/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../apache-tomcat-6.0.20/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../apache-tomcat-6.0.20/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="$PROJECT_DIR$/../apache-tomcat-6.0.20/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value=" stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Maven.BeforeRunTask" value="false" />
+        <option name="AntTarget" value="false" />
+        <option name="Run Maven goal" value="true" />
+        <option name="Make" value="false" />
+      </method>
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Flex.flex-client" />
+      <item index="1" class="java.lang.String" itemvalue="JBoss Server.webapp" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.all tests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.ImageServiceImplTest.testSaveArticleImage" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.sqizi on tomcat" />
+    </list>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" air_descriptor_path="" air_root_dir_path="" class_name="" html_or_swf_file_path="" method_name="" module_name="" package_name="" port="0" run_mode="HtmlOrSwfFile" scope="Class" url_to_launch="">
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_MODE" value="true" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="false" />
+    <option name="ACTIVE_ACTIONS" value="" />
+  </component>
+  <component name="SvnConfiguration">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="UPDATE_RUN_STATUS" value="false" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <configuration useDefault="true">C:\Documents and Settings\sg0206005\Application Data\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <option name="tasks">
+      <list>
+        <task id="Default" summary="Default task">
+          <option name="active" value="true" />
+          <option name="updated" value="1246905807859" />
+        </task>
+      </list>
+    </option>
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-4" y="-4" width="1688" height="968" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="V1Details" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977462" sideWeight="0.5" order="1" side_tool="false" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2797688" sideWeight="0.7775061" order="3" side_tool="false" />
+      <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="V1Integration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2965599" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28422982" sideWeight="0.27520758" order="1" side_tool="true" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18826406" sideWeight="0.7117438" order="3" side_tool="false" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23960881" sideWeight="0.7117438" order="0" side_tool="false" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48161328" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Tapestry" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="false" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml</url>
+          <line>40</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml</url>
+          <line>42</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/PlaceImages.mxml</url>
+          <line>149</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="flex">
+          <url>file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/Summary.mxml</url>
+          <line>19</line>
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/springmvc/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="18" selection-start="2080" selection-end="2080" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="17" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ArticlesDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="13" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/CompanyDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="13" selection-start="532" selection-end="532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/UserDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ImageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="8" selection-start="473" selection-end="473" vertical-scroll-proportion="0.54046994">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/spring-mvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Article.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="20" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="4" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/rpc/src/mx/rpc/remoting/mxml/RemoteObject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="20" selection-start="7462" selection-end="7462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/ArticleController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="49" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/ArticleDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="76" selection-start="764" selection-end="764" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoriesCollectionView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="51" selection-start="364" selection-end="364" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryTreeDataDescriptor.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="47" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/DisplayAllCategoriesEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoriesCollectionView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="15" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/AddArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="32" selection-start="1970" selection-end="1970" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryTreeMenuDescriptor.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="20" selection-start="1362" selection-end="1367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryTreeDataDescriptor.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="47" selection-start="2653" selection-end="2653" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/DisplayAllCategoriesEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="15" selection-start="1279" selection-end="1279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/AddArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="60" selection-start="767" selection-end="767" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoriesCollectionView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="44" selection-start="550" selection-end="550" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="42" selection-start="358" selection-end="358" vertical-scroll-proportion="0.115384616">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTreeElement.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/Sqizi.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="485" selection-end="485" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="526" selection-end="526" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="107" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LogOutEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="67" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleThumbnail.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="101" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/LoginController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="0" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/CompanyController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Company.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="19" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="1053" selection-end="1053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTree.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="37" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/CompanyModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="4" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/UserModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="10" selection-start="87" selection-end="87" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleThumbnail.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="101" selection-end="111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/LoginController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="9" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTreeElement.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.20769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/CompanyDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="43" selection-start="1215" selection-end="1215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="710" selection-end="710" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/User.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1246987878423" expanded="true" signature="157:372" placeholder="{...}" />
+            <marker date="1246987878423" expanded="true" signature="186:193" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="0" selection-start="4274" selection-end="4274" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="0" selection-start="4218" selection-end="4218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetCompanyDataEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1245306153328" expanded="true" signature="36:62" placeholder="import ..." />
+            <marker date="1245306153328" expanded="true" signature="111:424" placeholder="{...}" />
+            <marker date="1245306153328" expanded="true" signature="260:296" placeholder="{...}" />
+            <marker date="1245306153328" expanded="true" signature="358:422" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/CompanyController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="22" selection-start="1054" selection-end="1054" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="32" selection-start="1573" selection-end="1573" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="14" selection-start="2215" selection-end="2215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/ApplicationContext.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="25" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client_Flex_temp_flex_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="65" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/LoginDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="71" selection-start="304" selection-end="304" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/Sqizi.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="30" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LoginEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="4" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/LoginController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="25" selection-start="850" selection-end="850" vertical-scroll-proportion="0.31454784">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/rpc/src/mx/rpc/remoting/RemoteObject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="167" column="0" selection-start="5336" selection-end="5336" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="http://localhost:8080/webapp/Sqizi.swf">
+      <provider selected="true" editor-type-id="httpFileEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../flex_sdk/frameworks/libs/player/9/playerglobal.swc!/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="22" selection-start="1355" selection-end="1356" vertical-scroll-proportion="-15.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../flex_sdk/frameworks/libs/player/9/playerglobal.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="23" selection-start="7892" selection-end="7893" vertical-scroll-proportion="-15.2" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/flex/framework/playerglobal/3.3.0.4852/playerglobal-3.3.0.4852-10.swc!/catalog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/swizframweork/swiz/0.6.2/swiz-0.6.2.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="323" column="13" selection-start="13992" selection-end="13992" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/LoginDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="293" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LoginEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="52" selection-start="107" selection-end="155" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetCompanyDataEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="416" selection-end="416" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1245306153328" expanded="true" signature="36:62" placeholder="import ..." />
+            <marker date="1245306153328" expanded="true" signature="111:424" placeholder="{...}" />
+            <marker date="1245306153328" expanded="true" signature="260:296" placeholder="{...}" />
+            <marker date="1245306153328" expanded="true" signature="358:422" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/rpc/src/mx/messaging/ChannelSet.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1017" column="0" selection-start="35902" selection-end="35902" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LogOutEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="20" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleThumbnail.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="191" selection-end="302" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/CompanyDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="46" selection-start="344" selection-end="426" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTreeElement.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="32" selection-start="362" selection-end="362" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/UserModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="101" selection-end="101" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Company.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="20" selection-start="721" selection-end="721" vertical-scroll-proportion="0.8404669">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/DisplaySpecificCategoryEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="358" selection-end="358" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryTreeDataDescriptor.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="69" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/DisplayAllCategoriesEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="18" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/CategoryTreeMenuDescriptor.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="20" selection-start="1362" selection-end="1367" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategory.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="19" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/rpc/src/mx/rpc/remoting/mxml/RemoteObject.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="229" column="20" selection-start="7462" selection-end="7462" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/framework/src/mx/collections/ArrayCollection.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="38" selection-start="1040" selection-end="1041" vertical-scroll-proportion="0.72">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/flex/framework/playerglobal/9-3.3.0.4852/playerglobal-9-3.3.0.4852.swc!/library.swf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4128" column="13" selection-start="171138" selection-end="171138" vertical-scroll-proportion="-0.10261569">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="29" selection-start="2134" selection-end="2134" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/ArticleCategoryTree.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="14" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/spring-mvc-servlet.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="50" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/NewArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/helper/WizardStep.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="17" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/2.5.6/spring-tx-2.5.6.jar!/org/springframework/transaction/config/spring-tx-2.5.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="4" selection-start="2534" selection-end="2534" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/2.5.6/spring-aop-2.5.6.jar!/org/springframework/aop/framework/JdkDynamicAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="127" column="33" selection-start="4519" selection-end="4519" vertical-scroll-proportion="1.0705645">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="60" selection-start="8760" selection-end="8760" vertical-scroll-proportion="0.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/support/PropertiesSupplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="9" selection-start="819" selection-end="819" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/springmvc/UploadServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="0" selection-start="2514" selection-end="2514" vertical-scroll-proportion="0.33173078">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/AddArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="16" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/CompanyModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/ArticleModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="4" selection-start="624" selection-end="624" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Image.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="25" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetArticleImagesEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ImageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/CompanyController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="0" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="565" selection-end="565" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/CompanyDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="250" selection-end="250" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="248" selection-end="248" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/uicomponents/MyText.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="30" selection-start="235" selection-end="235" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../flex_sdk/frameworks/projects/framework/src/mx/managers/FocusManager.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="626" column="0" selection-start="18264" selection-end="18264" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/LoadArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="0" selection-end="423" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Article.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="13" selection-start="116" selection-end="116" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/ImageUpload.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="44" selection-start="1562" selection-end="1562" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/PlaceImages.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="746" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/UpdateArticleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="39" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/ArticleDelegate.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="11" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-remoting/3.2.0.3978/blazeds-remoting-3.2.0.3978.jar!/flex/messaging/services/remoting/adapters/JavaAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="28" selection-start="2241" selection-end="2241" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-remoting/3.2.0.3978/blazeds-remoting-3.2.0.3978.jar!/flex/messaging/services/RemotingService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="28" selection-start="968" selection-end="968" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/3.2.0.3978/blazeds-core-3.2.0.3978.jar!/flex/messaging/MessageBroker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="198" column="54" selection-start="9935" selection-end="9935" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/3.2.0.3978/blazeds-core-3.2.0.3978.jar!/flex/messaging/endpoints/AbstractEndpoint.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar!/net/sf/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="1354" selection-end="1354" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/flex/spring-flex/1.0.0.RELEASE/spring-flex-1.0.0.RELEASE.jar!/org/springframework/flex/core/MessageInterceptionAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="28" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/2.5.6/spring-aop-2.5.6.jar!/org/springframework/aop/framework/adapter/ThrowsAdviceInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="28" selection-start="841" selection-end="841" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/3.2.0.3978/blazeds-core-3.2.0.3978.jar!/flex/messaging/endpoints/amf/MessageBrokerFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="16" selection-start="564" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/adobe/blazeds/blazeds-core/3.2.0.3978/blazeds-core-3.2.0.3978.jar!/flex/messaging/endpoints/amf/LegacyFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/LoginController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="23" selection-start="1268" selection-end="1268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="17" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="581" selection-end="581" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ImageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ImageDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticlesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="7" selection-start="1974" selection-end="1974" vertical-scroll-proportion="3.088">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/UserDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="32" selection-start="949" selection-end="949" vertical-scroll-proportion="0.5622318">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/CompanyDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="32" selection-start="921" selection-end="921" vertical-scroll-proportion="0.38197425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ArticlesDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="495" selection-end="495" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/CompanyServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/CompanyServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="38" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="21" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="37" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/ArticleController.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="81" selection-start="2115" selection-end="2115" vertical-scroll-proportion="0.028846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ImageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="0" selection-start="1836" selection-end="1836" vertical-scroll-proportion="0.3322933">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/ApplicationContext.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="18" selection-start="1419" selection-end="1419" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="49" selection-start="812" selection-end="812" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/LoginServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="449" selection-end="505" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/ArticlesServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="16" selection-start="1768" selection-end="1768" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/UserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="20" selection-start="463" selection-end="463" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/CompanyDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="23" selection-start="441" selection-end="441" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/services/ImageServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="23" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/Summary.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="40" selection-start="435" selection-end="435" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="13" selection-start="3021" selection-end="3021" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ImageDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="575" selection-end="575" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sql-map-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="36" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="43" selection-start="1699" selection-end="1699" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoriesCollectionView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="19" selection-start="1700" selection-end="1700" vertical-scroll-proportion="0.5038023">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="15" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="13" selection-start="1290" selection-end="1290" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="188" selection-end="188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/Sqizi.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="297" selection-end="297" vertical-scroll-proportion="0.19521178">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="32" selection-start="632" selection-end="633" vertical-scroll-proportion="0.3025">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/User.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="42" selection-start="368" selection-end="368" vertical-scroll-proportion="0.43093923">
+          <folding>
+            <marker date="1246987878423" expanded="true" signature="157:372" placeholder="{...}" />
+            <marker date="1246987878423" expanded="true" signature="186:193" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="79" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/applicationContext.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="82" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.7279597">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex-servlet.xml">
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="56" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.5163148">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="12" selection-start="1356" selection-end="1356" vertical-scroll-proportion="0.69201523">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/flex-compiler-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/images.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="78" selection-start="877" selection-end="877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="27" selection-start="1847" selection-end="1847" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex/services-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="262" selection-end="262" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ImageTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="209" selection-end="209" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleThumbnail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="52" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/users.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="61" selection-start="16" selection-end="16" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="39" selection-start="1878" selection-end="1878" vertical-scroll-proportion="0.6666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client_Flex_temp_flex_config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="65" selection-start="1614" selection-end="1614" vertical-scroll-proportion="0.41379312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <option name="states">
+      <map>
+        <entry key="Copyright.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl />
+              </option>
+            </UIState>
+          </value>
+        </entry>
+        <entry key="Errors.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="Default|IDE Profiles" />
+            </UIState>
+          </value>
+        </entry>
+        <entry key="ProjectJDKs.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="1.6 sun" />
+            </UIState>
+          </value>
+        </entry>
+        <entry key="ScopeChooserConfigurable.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="flex" />
+              <option name="order">
+                <list>
+                  <option value="flex" />
+                </list>
+              </option>
+            </UIState>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="myStates">
+      <map>
+        <entry key="Copyright.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl />
+              </option>
+            </UIState>
+          </value>
+        </entry>
+        <entry key="Errors.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="Default|IDE Profiles" />
+            </UIState>
+          </value>
+        </entry>
+        <entry key="ProjectJDKs.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="1.6 sun" />
+            </UIState>
+          </value>
+        </entry>
+        <entry key="ScopeChooserConfigurable.UI">
+          <value>
+            <UIState>
+              <option name="proportions">
+                <SplitterProportionsDataImpl>
+                  <option name="proportions">
+                    <list>
+                      <option value="0.2" />
+                    </list>
+                  </option>
+                </SplitterProportionsDataImpl>
+              </option>
+              <option name="lastEditedConfigurable" value="flex" />
+              <option name="order">
+                <list>
+                  <option value="flex" />
+                </list>
+              </option>
+            </UIState>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
+

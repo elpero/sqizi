@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>                                                                        
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
+         xmlns:articles="no.sqizi.flexclient.view.articles.*" 
+         creationComplete="handleCreationComplete()">
+    <mx:HBox>
+        <mx:LinkButton id="addCategoryLink" label="Add Category" click="addCategory()"/>
+        <mx:LinkButton id="addArticleLink" label="Add Article" click="addArticle()"/>
+    </mx:HBox>
+    <mx:Spacer height="20"/>
+    <mx:Text id="articleViewHeader" fontSize="16" text="Articles"/>
+    <mx:ViewStack id="mainArticlesViewViewStack" width="100%">
+        <articles:CategoriesCollectionView id="categoriesCollection" width="100%"/>
+        <articles:SpecificCateogryView id="specificCategory"/>
+    </mx:ViewStack>
+
+
+    <mx:Script><![CDATA[
+        import mx.binding.utils.BindingUtils;
+        import mx.managers.PopUpManager;
+
+        import no.sqizi.flexclient.event.DisplayAllCategoriesEvent;
+        import no.sqizi.flexclient.event.DisplaySpecificCategoryEvent;
+        import no.sqizi.flexclient.event.GetCompanyDataEvent;
+        import no.sqizi.flexclient.model.CompanyModel;
+
+        import no.sqizi.flexclient.view.articles.addarticlewizard.AddArticleView;
+
+        import org.swizframework.Swiz;
+
+        public static const ARTICLE_OR_CATEGORY_ADDED_MSG:String = "ArticleOrCategoryAdded";
+
+        private function handleCreationComplete():void {
+            Swiz.addEventListener(ARTICLE_OR_CATEGORY_ADDED_MSG, refresh);
+            Swiz.addEventListener(DisplaySpecificCategoryEvent.TYPE, switchToCategoryView);
+            Swiz.addEventListener(DisplayAllCategoriesEvent.TYPE, switchToAllView);
+            BindingUtils.bindSetter(handleCompanyDataChange, companyModel, "currentCompanyData")
+        }
+
+        private function handleCompanyDataChange(object:Object = null) {
+            categoriesCollection = new CategoriesCollectionView();
+        }
+
+        private function refresh(event:Event = null):void {
+            Swiz.dispatchEvent(new GetCompanyDataEvent(companyModel.currentCompanyData.name));
+        }
+
+        private function switchToCategoryView(e:DisplaySpecificCategoryEvent):void {
+            specificCategory.category = companyModel.currentCompanyData.getCategoryTree().getTreeNodeForId(e.categoryId);
+            mainArticlesViewViewStack.selectedChild = specificCategory;
+        }
+
+        private function switchToAllView(e:DisplayAllCategoriesEvent):void {
+            mainArticlesViewViewStack.selectedIndex = 0;
+        }
+
+
+        private function addArticle():void {
+            var addArticleView:AddArticleView = new AddArticleView();
+            PopUpManager.addPopUp(addArticleView, this, true);
+            PopUpManager.centerPopUp(addArticleView);
+        }
+
+        private function addCategory():void {
+            var addCategoryView:AddCategoryView = new AddCategoryView();
+            PopUpManager.addPopUp(addCategoryView, this, true);
+            PopUpManager.centerPopUp(addCategoryView);
+        }
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+
+        ]]></mx:Script>
+</mx:VBox>
