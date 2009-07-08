@@ -14,22 +14,9 @@
 
 
     <mx:Script><![CDATA[
-        import mx.controls.Alert;
-        import mx.messaging.ChannelSet;
-        import mx.messaging.config.ServerConfig;
-        import mx.rpc.AsyncResponder;
-        import mx.rpc.AsyncToken;
-        import mx.rpc.events.FaultEvent;
-        import mx.rpc.events.ResultEvent;
-
-        import mx.rpc.remoting.RemoteObject;
-
         import no.sqizi.flexclient.ApplicationContext;
 
-        import no.sqizi.flexclient.event.LoginEvent;
-
         import org.swizframework.Swiz;
-        import org.swizframework.util.BeanLoader;
 
 
         public static const loggedOutMessage:String = "loggedOut";
