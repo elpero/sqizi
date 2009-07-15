@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<mx:Box xmlns:mx="http://www.adobe.com/2006/mxml">
+
+    <mx:Parallel id="changeEffect">
+        <mx:Fade id="showUpEffect" alphaFrom="0" alphaTo="1" duration="1200"/>
+        <mx:Blur id="unBlurEffect" blurXFrom="20" blurYFrom="20" blurXTo="0" blurYTo="0" duration="1200"/>
+    </mx:Parallel>
+
+    <mx:Script><![CDATA[
+
+        
+
+            ]]></mx:Script>
+</mx:Box>

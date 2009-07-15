@@ -3,6 +3,7 @@ package no.sqizi.webapp.dao;
 import no.sqizi.webapp.domain.Article;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
+import no.sqizi.webapp.domain.ArticleThumbnail;
 import org.springframework.stereotype.Repository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.orm.ibatis.SqlMapClientTemplate;
@@ -75,6 +76,14 @@ public class ArticlesDaoImpl implements ArticlesDao {
         params.put("userName", author==null?null:author.getUserName());
         params.put("date", date);
         template.update("updateArticle", params);
+    }
+
+    @Override
+    public List<ArticleThumbnail> getRecentArticlesForCompany(int number, String companyName){
+        HashMap<String, Object> params = new HashMap<String, Object>();
+        params.put("number", number);
+        params.put("companyName", companyName);
+        return template.queryForList("getRecentArticlesForCompany",params);
     }
 
 

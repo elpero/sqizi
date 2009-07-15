@@ -3,6 +3,7 @@ package no.sqizi.webapp.flex.services;
 import no.sqizi.webapp.dao.ArticlesDao;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
+import no.sqizi.webapp.domain.ArticleThumbnail;
 
 import java.util.List;
 import java.util.Date;
@@ -24,4 +25,6 @@ public interface ArticleService {
     List<ImageTO> getArticleImages(Long articleId);
 
     void updateArticle(Long id, String title, String articleAbstract, String content, User author, Date date);
+
+    List<ArticleThumbnail> getRecentArticlesForCompany(int number, String companyName);
 }

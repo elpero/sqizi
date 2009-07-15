@@ -13,6 +13,7 @@ import no.sqizi.flexclient.domain.Article;
 import no.sqizi.flexclient.event.AddArticleEvent;
 import no.sqizi.flexclient.event.AddCategoryEvent;
 import no.sqizi.flexclient.event.GetArticleImagesEvent;
+import no.sqizi.flexclient.event.GetRecentArticlesEvent;
 import no.sqizi.flexclient.event.LoadArticleEvent;
 import no.sqizi.flexclient.event.NewArticleEvent;
 import no.sqizi.flexclient.event.UpdateArticleEvent;
@@ -43,7 +44,25 @@ public class ArticleController extends AbstractController{
         Swiz.addEventListener(AddArticleEvent.TYPE, addArticle);
         Swiz.addEventListener(GetArticleImagesEvent.TYPE, getImages);
         Swiz.addEventListener(UpdateArticleEvent.TYPE, updateArticles);
+        Swiz.addEventListener(GetRecentArticlesEvent.TYPE, getRecentArticles);
 
+    }
+
+    private function getRecentArticles(e:GetRecentArticlesEvent):void {
+        articleDelegate.getRecentArticles(e.number, userModel.loggedInUser.companyName).
+                addResponder(new AsyncResponder(
+                    handleGetRecentSuccess,
+                    handleGetRecentFailure
+                ))
+    }
+
+    private function handleGetRecentFailure(e:FaultEvent, token:Object = null):void {
+        Alert.show("Unable to get recent articles:\n" + e.fault.faultString);
+    }
+
+    private function handleGetRecentSuccess(e:ResultEvent, token:Object = null):void {
+        articleModel.recentArticles = ArrayCollection(e.result);
+        
     }
 
     private function updateArticles(e:UpdateArticleEvent):void {

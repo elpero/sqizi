@@ -79,10 +79,8 @@ public class ArticlesDaoImplTest {
         articleDao.addCategory("name", "description", 1L, "company");
         verify(template).insert("addCategory", params);
         verifyNoMoreInteractions(template);
-
     }
-
-
+    
     @Test
     public void testGetArticleImages(){
         articleDao.getArticleImageIds(1L);
@@ -90,4 +88,19 @@ public class ArticlesDaoImplTest {
         verifyNoMoreInteractions(template);
 
     }
+
+    @Test
+    public void testGetRecentArticlesForCompany(){
+        final String companyName = "yahoo";
+        final int number = 5;
+        HashMap<String, Object> params = new HashMap<String, Object>();
+        params.put("number", number);
+        params.put("companyName", companyName);
+        articleDao.getRecentArticlesForCompany(number, companyName);
+        verify(template).queryForList(eq("getRecentArticlesForCompany"), eq(params));
+        verifyNoMoreInteractions(template);
+
+    }
+
+
 }

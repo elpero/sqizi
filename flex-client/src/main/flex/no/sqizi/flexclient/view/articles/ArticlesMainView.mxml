@@ -34,7 +34,7 @@
             Swiz.addEventListener(ARTICLE_OR_CATEGORY_ADDED_MSG, refresh);
             Swiz.addEventListener(DisplaySpecificCategoryEvent.TYPE, switchToCategoryView);
             Swiz.addEventListener(DisplayAllCategoriesEvent.TYPE, switchToAllView);
-            BindingUtils.bindSetter(handleCompanyDataChange, companyModel, "currentCompanyData")
+            BindingUtils.bindSetter(handleCompanyDataChange, companyModel, "currentCompanyData");
         }
 
         private function handleCompanyDataChange(object:Object = null) {

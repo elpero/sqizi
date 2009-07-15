@@ -31,5 +31,16 @@ public class ArticleModel {
     public function set images(value:ArrayCollection):void {
         _images = value;
     }
+
+    private var _recentArticles:ArrayCollection;
+
+
+    public function get recentArticles():ArrayCollection {
+        return _recentArticles;
+    }
+
+    public function set recentArticles(value:ArrayCollection):void {
+        _recentArticles = value;
+    }
 }
 }

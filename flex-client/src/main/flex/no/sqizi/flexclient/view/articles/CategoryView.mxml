@@ -22,19 +22,15 @@
         import no.sqizi.flexclient.domain.ArticleCategoryTreeElement;
         import no.sqizi.flexclient.event.DisplaySpecificCategoryEvent;
         import no.sqizi.flexclient.event.LoadArticleEvent;
-        import no.sqizi.flexclient.helper.CategoryLinksRenderer;
-        import no.sqizi.flexclient.helper.CategoryTreeDataDescriptor;
-        import no.sqizi.flexclient.helper.CategoryTreeMenuDescriptor;
         import no.sqizi.flexclient.model.CompanyModel;
 
         import org.swizframework.Swiz;
-
 
         internal function displayFullArticle(id:int):void {
             Swiz.dispatchEvent(new LoadArticleEvent(id));
             var articleView:ArticleView = new ArticleView();
             PopUpManager.addPopUp(articleView, this, true);
-//            PopUpManager.centerPopUp(articleView);
+            //            PopUpManager.centerPopUp(articleView);
         }
 
         private function handleCreationComplete():void {

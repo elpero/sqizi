@@ -12,6 +12,8 @@
         <option name="OUTPUT_FILE_NAME" value="flex-client-1.0.swf" />
         <option name="USE_FACET_COMPILE_OUTPUT_PATH" value="true" />
         <option name="FACET_COMPILE_OUTPUT_PATH" value="$MODULE_DIR$/target" />
+        <option name="INCLUDE_RESOURCE_FILES_IN_SWC" value="false" />
+        <option name="TARGET_PLAYER_VERSION" value="" />
         <option name="STATIC_LINK_RUNTIME_SHARED_LIBRARIES" value="true" />
         <option name="USE_LOCALE_SETTINGS" value="false" />
         <option name="LOCALE" value="en_US" />

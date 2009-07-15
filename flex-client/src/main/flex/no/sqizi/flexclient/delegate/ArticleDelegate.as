@@ -33,5 +33,9 @@ public class ArticleDelegate {
     public function updateArticle(id:int, title:String, abstract:String, content:String, author:no.sqizi.flexclient.domain.User, date:Date):AsyncToken {
         return articleService.updateArticle(id,title,abstract,content,author,date);
     }
+
+    public function getRecentArticles(number:int, companyName:String):AsyncToken{
+        return articleService.getRecentArticlesForCompany(number, companyName);
+    }
 }
 }

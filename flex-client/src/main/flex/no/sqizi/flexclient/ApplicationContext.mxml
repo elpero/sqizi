@@ -3,6 +3,7 @@
             xmlns:controller="no.sqizi.flexclient.controller.*"
             xmlns:delegate="no.sqizi.flexclient.delegate.*"
             xmlns:model="no.sqizi.flexclient.model.*"
+            xmlns:effects="no.sqizi.flexclient.view.effects.*"
             xmlns:mx="http://www.adobe.com/2006/mxml">
 
     <DynamicChannelSet id="myAmfChannel">
@@ -10,19 +11,19 @@
         <contextRoot>/webapp</contextRoot>
     </DynamicChannelSet>
 
-    
+    <effects:Effects id="effects"/>
 
-    <mx:RemoteObject id="loginService">
+    <mx:RemoteObject id="loginService" concurrency="last">
         <mx:channelSet>{myAmfChannel}</mx:channelSet>
         <mx:destination>loginService</mx:destination>
     </mx:RemoteObject>
 
-    <mx:RemoteObject id="companyService">
+    <mx:RemoteObject id="companyService" concurrency="last">
         <mx:channelSet>{myAmfChannel}</mx:channelSet>
         <mx:destination>companyService</mx:destination>
     </mx:RemoteObject>
 
-     <mx:RemoteObject id="articleService">
+     <mx:RemoteObject id="articleService" concurrency="last">
         <mx:channelSet>{myAmfChannel}</mx:channelSet>
         <mx:destination>articleService</mx:destination>
     </mx:RemoteObject>

@@ -2,21 +2,22 @@
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" implements="no.sqizi.flexclient.helper.WizardStep"
          creationComplete="Swiz.addEventListener(NewArticleEvent.TYPE, handleNewArticleAdded)">
     <mx:Form width="100%">
-        <mx:FormItem label="Tile:">
-            <mx:TextInput id="newArticleTitle"/>
+        <mx:FormItem label="Tile:" width="100%">
+            <mx:TextInput id="newArticleTitle"  width="100%"/>
         </mx:FormItem>
-        <mx:FormItem label="Category:">
+        <mx:FormItem label="Category:" width="100%">
             <mx:Tree id="newArticleCateogry"
                      alpha="1"
+                     width="100%"
                      labelField="name"
                      dataProvider="{companyModel.currentCompanyData.getCategoryTree().roots}"
                      dataDescriptor="{new CategoryTreeDataDescriptor()}"/>
         </mx:FormItem>
-        <mx:FormItem label="Abstract:">
-            <mx:TextArea id="newArticleAbstract"/>
+        <mx:FormItem label="Abstract:" width="100%">
+            <mx:TextArea id="newArticleAbstract" width="100%"/>
         </mx:FormItem>
-        <mx:FormItem label="Content:">
-            <mx:RichTextEditor id="newArticleContent"/>
+        <mx:FormItem label="Content:"  width="100%">
+            <mx:RichTextEditor id="newArticleContent" width="100%"/>
         </mx:FormItem>
     </mx:Form>
     <mx:StringValidator id="titleValidator" required="true" source="{newArticleTitle}" property="text"/>
@@ -54,6 +55,7 @@
 
         private function handleNewArticleAdded(e:NewArticleEvent):void {
             _article.id = e.newArticleId;
+            Swiz.removeEventListener(NewArticleEvent.TYPE, handleNewArticleAdded);
             Swiz.dispatchEvent(new Event(AddArticleView.READY_TO_MOVE_NEXT_MESSAGE));
         }
 

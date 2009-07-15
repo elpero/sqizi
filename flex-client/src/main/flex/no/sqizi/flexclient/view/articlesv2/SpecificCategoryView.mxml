@@ -1,0 +1,43 @@
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
+         xmlns:articles="no.sqizi.flexclient.view.articles.*"
+         xmlns:articlesv2="no.sqizi.flexclient.view.articlesv2.*"
+         width="100%">
+    <articlesv2:CategoryView id="specificCategoryView" maxWidth="200" category="{category}" width="100%" height="100%"/>
+    <mx:Script><![CDATA[
+        import mx.binding.utils.BindingUtils;
+
+        import no.sqizi.flexclient.domain.ArticleCategoryTreeElement;
+
+        import no.sqizi.flexclient.event.DisplayAllCategoriesEvent;
+        import no.sqizi.flexclient.model.CompanyModel;
+
+        import no.sqizi.flexclient.view.effects.Effects;
+
+        import org.swizframework.Swiz;
+
+        private function handleCreationComplete():void {
+
+        }
+
+        private function handleButtonClick():void {
+            Swiz.dispatchEvent(new DisplayAllCategoriesEvent());
+        }
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+        
+
+        private var _category:ArticleCategoryTreeElement;
+
+
+        public function get category():ArticleCategoryTreeElement {
+            return _category;
+        }
+
+        [Bindable]
+        public function set category(value:ArticleCategoryTreeElement):void {
+            _category = value;
+        }]]></mx:Script>
+</mx:VBox>

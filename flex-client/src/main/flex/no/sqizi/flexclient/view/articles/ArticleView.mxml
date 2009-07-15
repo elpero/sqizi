@@ -23,9 +23,9 @@
                  id="content"
                  htmlText="{_articleModel.article.content}"
                  height="550" width="100%"/>
-    <mx:VBox width="100%" horizontalAlign="right" >
-        <mx:Button id="closeButton" label="Close" click="PopUpManager.removePopUp(this)"/>
-    </mx:VBox>
+    <!--<mx:VBox width="100%" horizontalAlign="right" >-->
+        <!--<mx:Button id="closeButton" label="Close" click="PopUpManager.removePopUp(this)"/>-->
+    <!--</mx:VBox>-->
     <mx:Resize id="showEffect" heightFrom="0" heightTo="650" widthFrom="0" widthTo="1000" duration="500"/>
     <mx:Fade id="hideEffect" alphaFrom="1" alphaTo="0" duration="500"/>
 

@@ -95,6 +95,16 @@ public class ArticlesServiceImplTest {
     }
     
 
+    @Test
+    public void testGetRecentArticlesForCompany(){
+        final int number  = 5;
+        final String companyName = "yahoo.com";
+        serv.getRecentArticlesForCompany(number, companyName);
+        verify(serv.getArticleDao()).getRecentArticlesForCompany(number,companyName);
+        verifyNoMoreInteractions(serv.getArticleDao());
+    }
+
+
 
 
 

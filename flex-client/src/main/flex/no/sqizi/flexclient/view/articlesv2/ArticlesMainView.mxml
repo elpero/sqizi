@@ -1,0 +1,73 @@
+<?xml version="1.0" ?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
+         xmlns:articles="no.sqizi.flexclient.view.articles.*"
+         xmlns:articlesv2="no.sqizi.flexclient.view.articlesv2.*"
+         height="100%"
+         width="100%">
+    <mx:HBox width="100%" visible="{userModel.loggedInUser.authorities.contains('ROLE_ADMIN')}">
+        <mx:LinkButton id="addCategoryLink" label="Add Category" click="addCategory()"/>
+        <mx:LinkButton id="addArticleLink" label="Add Article" click="addArticle()"/>
+    </mx:HBox>
+    <articlesv2:RecentArticles width="100%"/>
+
+    <mx:HBox width="100%" height="100%">
+
+        <mx:VBox height="100%" width="20%">
+            <mx:Tree id="categoryTree"
+                     height="100%"
+                     width="100%"
+                     borderThickness="0"
+                     alpha="1"
+                     backgroundAlpha="0"
+                     labelField="name"
+                     dataProvider="{companyModel.currentCompanyData.getCategoryTree().roots}"
+                     dataDescriptor="{new CategoryTreeDataDescriptor()}"/>
+        </mx:VBox>
+        <mx:VBox width="30%" height="100%">
+            <articlesv2:SpecificCategoryView id="category"
+                                             category="{categoryTree.selectedItem as ArticleCategoryTreeElement}"
+                                             height="100%"
+                                             width="100%"/>
+
+        </mx:VBox>
+        <mx:VBox width="50%" height="100%">
+            <articlesv2:ArticleView id="article"
+                                    height="100%"
+                                    width="100%"/>
+
+        </mx:VBox>
+    </mx:HBox>
+    <mx:Script><![CDATA[
+        import mx.managers.PopUpManager;
+
+        import no.sqizi.flexclient.domain.ArticleCategoryTreeElement;
+        import no.sqizi.flexclient.helper.CategoryTreeDataDescriptor;
+        import no.sqizi.flexclient.model.CompanyModel;
+        import no.sqizi.flexclient.model.UserModel;
+        import no.sqizi.flexclient.view.articles.AddCategoryView;
+        import no.sqizi.flexclient.view.articles.addarticlewizard.AddArticleView;
+
+
+        private function addArticle():void {
+            var addArticleView:AddArticleView = new AddArticleView();
+            PopUpManager.addPopUp(addArticleView, this, true);
+            PopUpManager.centerPopUp(addArticleView);
+        }
+
+        private function addCategory():void {
+            var addCategoryView:AddCategoryView = new AddCategoryView();
+            PopUpManager.addPopUp(addCategoryView, this, true);
+            PopUpManager.centerPopUp(addCategoryView);
+        }
+
+        [Autowire(bean="companyModel")]
+        [Bindable]
+        public var companyModel:CompanyModel;
+
+
+        [Autowire(bean="userModel")]
+        [Bindable]
+        public var userModel:UserModel;
+
+        ]]></mx:Script>
+</mx:VBox>

@@ -6,6 +6,7 @@ import no.sqizi.webapp.dao.ArticlesDao;
 import no.sqizi.webapp.domain.Article;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
+import no.sqizi.webapp.domain.ArticleThumbnail;
 import no.sqizi.webapp.support.PropertiesSupplier;
 
 import java.util.List;
@@ -69,6 +70,12 @@ public class ArticlesServiceImpl implements ArticleService {
 
     public void updateArticle(Long id, String title, String articleAbstract, String content, User author, Date date){
         articleDao.updateArticle(id, title, articleAbstract, content, author, date);
+
+    }
+
+    @Override
+    public List<ArticleThumbnail> getRecentArticlesForCompany(int number, String companyName){
+        return articleDao.getRecentArticlesForCompany(number, companyName);
 
     }
 }

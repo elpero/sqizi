@@ -3,6 +3,7 @@ package no.sqizi.webapp.dao;
 import no.sqizi.webapp.domain.Article;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
+import no.sqizi.webapp.domain.ArticleThumbnail;
 
 import java.util.List;
 import java.util.Date;
@@ -24,4 +25,6 @@ public interface ArticlesDao {
     List<ImageTO> getArticleImageIds(Long articleId);
 
     void updateArticle(Long id, String title, String articleAbstract, String content, User author, Date date);
+
+    List<ArticleThumbnail> getRecentArticlesForCompany(int number, String companyName);
 }
