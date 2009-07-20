@@ -4,7 +4,7 @@
                 xmlns:wizard="no.sqizi.flexclient.view.articles.addarticlewizard.*"
                 alpha="1"
                 width="1200"
-                height="600"
+                height="700"
                 showCloseButton="true"
                 close="PopUpManager.removePopUp(this)"
             creationComplete="handleCreationComplete()">

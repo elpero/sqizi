@@ -1,15 +1,22 @@
 <?xml version="1.0" ?>
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
          creationComplete="handleCreationComplete()"
-         >
+        >
     <mx:Panel title="{category.name}" layout="vertical" width="100%" horizontalAlign="left">
         <mx:Text text="{category.description}"/>
-        <mx:HorizontalList dataProvider="{category.children}" itemRenderer="no.sqizi.flexclient.helper.CategoryLinksRenderer"/>
+        <mx:HorizontalList dataProvider="{category.children}"
+                           itemRenderer="no.sqizi.flexclient.helper.CategoryLinksRenderer"/>
         <mx:List width="100%" dataProvider="{category.articles}">
             <mx:itemRenderer>
                 <mx:Component>
-                    <mx:LinkButton textAlign="left" label="{data.title}"
-                                   click="outerDocument.displayFullArticle(data.id)"/>
+                    <mx:HBox width="100%">
+                        <mx:LinkButton textAlign="left" label="{data.title}"
+                                       click="outerDocument.displayFullArticle(data.id)"/>
+                        <mx:LinkButton textAlign="right"
+                                       label="Edit"
+                                       visible="{outerDocument.userModel.loggedInUser.authorities.contains('ROLE_ADMIN')}"
+                                       click="outerDocument.editArticle(data.id)"/>
+                    </mx:HBox>
                 </mx:Component>
             </mx:itemRenderer>
         </mx:List>
@@ -24,7 +31,15 @@
         import no.sqizi.flexclient.event.LoadArticleEvent;
         import no.sqizi.flexclient.model.CompanyModel;
 
+        import no.sqizi.flexclient.model.UserModel;
+
         import org.swizframework.Swiz;
+
+        internal function editArticle(id:int):void {
+            Swiz.dispatchEvent(new LoadArticleEvent(id));
+            //TODO:
+            //finish this
+        }
 
         internal function displayFullArticle(id:int):void {
             Swiz.dispatchEvent(new LoadArticleEvent(id));
@@ -43,6 +58,10 @@
         [Autowire(bean="companyModel")]
         [Bindable]
         public var companyModel:CompanyModel;
+
+        [Autowire(bean="userModel")]
+        [Bindable]
+        public var userModel:UserModel;
 
 
         private var _category:ArticleCategoryTreeElement;

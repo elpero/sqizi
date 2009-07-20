@@ -60,7 +60,7 @@
         where id=#id# 
     </update>
 
-    <select id="getRecentArticlesForCompany" resultMap="article-thumbnail-result-map" parameterMap="java.util.Map">
+    <select id="getRecentArticlesForCompany" resultMap="article-thumbnail-result-map" parameterClass="java.util.Map">
         SELECT
             a.id as articleThumbnailId,
             a.title as articleThumbnailTitle,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.016" errors="0" skipped="0" tests="1" name="no.sqizi.webapp.dao.UserDaoImplTest">
+<testsuite failures="0" time="0.015" errors="0" skipped="0" tests="1" name="no.sqizi.webapp.dao.UserDaoImplTest">
   <properties>
     <property name="java.vendor" value="Sun Microsystems Inc."/>
     <property name="localRepository" value="c:\development\m2_repo3"/>
@@ -74,7 +74,7 @@
     <property name="env.AGENT_HOME" value="c:\am_jboss_agent "/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="env.windir" value="C:\WINDOWS"/>
-    <property name="env.LOGONSERVER" value="\\SGLONDC01"/>
+    <property name="env.LOGONSERVER" value="\\SGLONDC02"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="sun.os.patch.level" value="Service Pack 2"/>
@@ -109,5 +109,5 @@
     <property name="env.SonicCentral" value="C:\Program Files\Common Files\Sonic Shared\Sonic Central\"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase time="0.016" classname="no.sqizi.webapp.dao.UserDaoImplTest" name="testLogin"/>
+  <testcase time="0.015" classname="no.sqizi.webapp.dao.UserDaoImplTest" name="testLogin"/>
 </testsuite>

@@ -1,12 +1,15 @@
 <?xml version="1.0" ?>
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="handleCreationComplete()">
     <mx:Text fontSize="14" text="Recent Articles"/>
-    <mx:List dataProvider="{articleModel.recentArticles}" labelField="title"/>
+    <mx:List id="recentArticlesList" dataProvider="{articleModel.recentArticles}"
+             labelField="title"
+             itemClick="Swiz.dispatchEvent(new LoadArticleEvent(recentArticlesList.selectedItem.id))"/>
 
 
     <mx:Script><![CDATA[
         import no.sqizi.flexclient.event.GetRecentArticlesEvent;
 
+        import no.sqizi.flexclient.event.LoadArticleEvent;
         import no.sqizi.flexclient.model.ArticleModel;
 
         import org.swizframework.Swiz;

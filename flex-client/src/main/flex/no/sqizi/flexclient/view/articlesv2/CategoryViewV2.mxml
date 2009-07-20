@@ -5,26 +5,12 @@
     <mx:VBox width="100%" horizontalAlign="left" height="100%">
         <mx:Text text="{category.name}" fontSize="16"/>
         <mx:Text text="{category.description}"/>
-        <!--<mx:List id="list"-->
-                 <!--backgroundAlpha="0"-->
-                 <!--borderThickness="0"-->
-                 <!--width="100%"-->
-                 <!--height="100%"-->
-                 <!--dataProvider="{category.articles}">-->
-            <!--<mx:itemRenderer>-->
-                <!--<mx:Component>-->
-                    <!--<mx:HBox width="100%">-->
-                        <!--<mx:LinkButton textAlign="left" label="{data.title}"-->
-                                       <!--click="outerDocument.displayFullArticle(data.id)"/>-->
-                        <!--<mx:LinkButton textAlign="right"-->
-                                       <!--label="Edit"-->
-                                       <!--visible="{outerDocument.userModel.loggedInUser.authorities.contains('ROLE_ADMIN')}"-->
-                                       <!--click="outerDocument.editArticle(data.id)"/>-->
-                    <!--</mx:HBox>-->
-                <!--</mx:Component>-->
-            <!--</mx:itemRenderer>-->
-        <!--</mx:List>-->
-        <mx:List width="100%" dataProvider="{category.articles}">
+        <mx:List id="list"
+                 backgroundAlpha="0"
+                 borderThickness="0"
+                 width="100%"
+                 height="100%"
+                 dataProvider="{category.articles}">
             <mx:itemRenderer>
                 <mx:Component>
                     <mx:HBox width="100%">
@@ -38,7 +24,7 @@
                 </mx:Component>
             </mx:itemRenderer>
         </mx:List>
-    </mx:VBox>
+
 
     <mx:Script><![CDATA[
         import mx.binding.utils.BindingUtils;

@@ -74,7 +74,7 @@
     <property name="env.AGENT_HOME" value="c:\am_jboss_agent "/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="env.windir" value="C:\WINDOWS"/>
-    <property name="env.LOGONSERVER" value="\\SGLONDC01"/>
+    <property name="env.LOGONSERVER" value="\\SGLONDC02"/>
     <property name="java.vm.specification.version" value="1.0"/>
     <property name="env.PROCESSOR_ARCHITECTURE" value="x86"/>
     <property name="sun.os.patch.level" value="Service Pack 2"/>
@@ -109,6 +109,6 @@
     <property name="env.SonicCentral" value="C:\Program Files\Common Files\Sonic Shared\Sonic Central\"/>
     <property name="env.PROCESSOR_LEVEL" value="6"/>
   </properties>
-  <testcase time="0.047" classname="no.sqizi.webapp.dao.ImageDaoImplTest" name="testSaveArticleImage"/>
+  <testcase time="0.032" classname="no.sqizi.webapp.dao.ImageDaoImplTest" name="testSaveArticleImage"/>
   <testcase time="0" classname="no.sqizi.webapp.dao.ImageDaoImplTest" name="testAddArticleReferenceToImage"/>
 </testsuite>

@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project relativePaths="false" version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="564d4873-ebee-43c8-ae93-3697f6433a26" name="Default" comment="" />
-    <ignored path=".idea/workspace.xml" />
+    <list default="true" readonly="true" id="564d4873-ebee-43c8-ae93-3697f6433a26" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/EditArticlePopup.mxml" />
+      <change type="DELETED" beforePath="C:\sqizi\flex-client\src\main\flex\no\sqizi\flexclient\view\articlesv2\CategoryView.mxml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryViewV2.mxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/RedefineArticleMainData.mxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sqizi.iws" afterPath="$PROJECT_DIR$/sqizi.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/SpecificCategoryView.mxml" afterPath="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/SpecificCategoryView.mxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml" afterPath="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml" />
+    </list>
     <ignored path="sqizi.iws" />
+    <ignored path=".idea/workspace.xml" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
@@ -113,61 +124,7 @@
       <file leaf-file-name="RecentArticles.mxml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="78" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlesMainView.mxml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticlesMainView.mxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.34155598">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleModel.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/ArticleModel.as">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="8" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlesDao.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="17" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="company.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="49" selection-start="1284" selection-end="1304" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticleService.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="1" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArticlesServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticlesServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="53" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
+            <state line="7" column="45" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -191,10 +148,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryView.mxml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryView.mxml">
+      <file leaf-file-name="CategoryViewV2.mxml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryViewV2.mxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0">
+            <state line="19" column="7" selection-start="857" selection-end="857" vertical-scroll-proportion="0.5294118">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CategoryView.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="23" selection-start="443" selection-end="1200" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditArticlePopup.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/EditArticlePopup.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="65" column="64" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticlesMainView.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticlesMainView.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RedefineArticleMainData.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/RedefineArticleMainData.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="32" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefineArticleMainDataView.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="35" selection-start="1889" selection-end="2139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddArticleView.mxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="25" selection-start="0" selection-end="2830" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -299,31 +310,35 @@
         <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/domain/ArticleImage.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/springmvc/UploadServlet.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/images.xml" />
-        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/AriclesMainView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml" />
-        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/style.css" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticleView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/effects/Effects.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/SpecificCategoryView.mxml" />
-        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/ApplicationContext.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/model/ArticleModel.as" />
         <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDaoImpl.java" />
-        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml" />
         <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/ArticlesServiceImplTest.java" />
         <option value="$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticlesServiceImpl.java" />
         <option value="$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ArticlesDaoImplTest.java" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/ArticleDelegate.as" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetRecentArticlesEvent.as" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/ArticleController.as" />
-        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml" />
         <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticlesMainView.mxml" />
+        <option value="$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/EditArticlePopUp.as" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/EditArticlePopup.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/RedefineArticleMainData.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryView.mxml" />
+        <option value="$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryViewV2.mxml" />
       </list>
     </option>
   </component>
@@ -646,11 +661,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="java" />
+          <option name="myItemId" value="resources" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="webapp" />
+          <option name="myItemId" value="sqlMaps" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -681,10 +696,6 @@
         </PATH_ELEMENT>
         <PATH_ELEMENT>
           <option name="myItemId" value="webapp" />
-          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="services" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1100,7 +1111,15 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="model" />
+          <option name="myItemId" value="view" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="articlesv2" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="edit" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1134,7 +1153,11 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="domain" />
+          <option name="myItemId" value="view" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="articles" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1168,7 +1191,49 @@
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
         <PATH_ELEMENT>
-          <option name="myItemId" value="controller" />
+          <option name="myItemId" value="view" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="articles" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="addarticlewizard" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="sqizi" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flex-client" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flex-client" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="src" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="main" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flex" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="flexclient" />
+          <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="event" />
           <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
         </PATH_ELEMENT>
       </PATH>
@@ -1254,7 +1319,7 @@
       <recent name="no.sqizi.webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sqizi on tomcat">
+  <component name="RunManager" selected="Flex.flex-client">
     <configuration default="false" name="ArticlesDaoImplTest.testGetRecentArticlesForCompany" type="JUnit" factoryName="JUnit" temporary="true" enabled="true" merge="false" runner="idea">
       <pattern>
         <option name="PATTERN" value="no.sqizi.*" />
@@ -1795,7 +1860,7 @@
       <list>
         <task id="Default" summary="Default task">
           <option name="active" value="true" />
-          <option name="updated" value="1247632906906" />
+          <option name="updated" value="1247719205843" />
         </task>
       </list>
     </option>
@@ -1833,7 +1898,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32934132" sideWeight="0.5" order="6" side_tool="false" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28422982" sideWeight="0.27520758" order="1" side_tool="true" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19631901" sideWeight="0.6963227" order="3" side_tool="false" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.201227" sideWeight="0.6963227" order="3" side_tool="false" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26625767" sideWeight="0.6963227" order="0" side_tool="false" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
       <window_info id="Web Preview" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" />
@@ -2425,11 +2490,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/spring-mvc-servlet.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="50" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/2.5.6/spring-tx-2.5.6.jar!/org/springframework/transaction/config/spring-tx-2.5.xsd">
@@ -2594,19 +2659,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/applicationContext.xml">
-      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="82" selection-start="3041" selection-end="3041" vertical-scroll-proportion="0.7279597" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex-servlet.xml">
       <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/flex-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="56" selection-start="1974" selection-end="1974" vertical-scroll-proportion="0.5163148" />
+      </provider>
+      <provider editor-type-id="com.intellij.spring.perspectives.SpringBeansStructureEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/flex-compiler-config.xml">
@@ -2682,16 +2747,16 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="52" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-        <state />
-      </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
         <state />
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="52" selection-start="1579" selection-end="1579" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
         <state />
       </provider>
     </entry>
@@ -2727,18 +2792,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="19" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticlesMainView.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="56" column="7" selection-start="2674" selection-end="3165" vertical-scroll-proportion="0.0" />
@@ -2747,11 +2800,6 @@
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/MainView.mxml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="126" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="8" selection-start="1440" selection-end="1440" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/login/LoginView.mxml">
@@ -2838,25 +2886,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2451" selection-end="2451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="23" selection-start="2378" selection-end="2378" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/ArticleView.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="47" selection-start="493" selection-end="493" vertical-scroll-proportion="0.41935483">
-          <folding />
-        </state>
+        <state line="13" column="47" selection-start="493" selection-end="493" vertical-scroll-proportion="0.41935483" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticleView.mxml">
@@ -2866,9 +2898,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/SpecificCategoryView.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="40" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="34" column="40" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/domain/Company.as">
@@ -2920,70 +2950,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/services/ImageServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="13" selection-start="736" selection-end="736" vertical-scroll-proportion="-1.3987976">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="17" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryView.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="0" selection-start="1455" selection-end="1455" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1284" selection-end="1304" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="53" selection-start="3383" selection-end="3383" vertical-scroll-proportion="0.8340249">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="13" selection-start="736" selection-end="736" vertical-scroll-proportion="-1.3987976" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="81" column="92" selection-start="2666" selection-end="2696" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/ArticlesServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="25" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticlesServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="53" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="81" column="92" selection-start="2666" selection-end="2696" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/dao/ArticlesDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="4" selection-start="2592" selection-end="2592" vertical-scroll-proportion="2.64">
-          <folding />
-        </state>
+        <state line="82" column="4" selection-start="2592" selection-end="2592" vertical-scroll-proportion="2.64" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/delegate/ArticleDelegate.as">
@@ -3000,23 +2977,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetRecentArticlesEvent.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="4" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/controller/ArticleController.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="3" selection-start="1086" selection-end="1164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="78" selection-start="249" selection-end="249" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -3042,9 +3005,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/articles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="30" selection-start="2149" selection-end="2149" vertical-scroll-proportion="0.4294606" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/dao/ArticlesDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="17" selection-start="421" selection-end="421" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/resources/sqlMaps/company.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="49" selection-start="1284" selection-end="1304" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/AddCategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="26" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="1" selection-start="927" selection-end="927" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/main/java/no/sqizi/webapp/flex/services/ArticlesServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="53" selection-start="2443" selection-end="2443" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/event/GetRecentArticlesEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="289" selection-end="289" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webapp/src/test/java/no/sqizi/webapp/flex/services/ArticlesServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="25" selection-start="3017" selection-end="3017" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/RecentArticles.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="45" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/AddArticleView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="0" selection-end="2830" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/ArticlesMainView.mxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.34155598">
+        <state line="10" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/addarticlewizard/DefineArticleMainDataView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="35" selection-start="1889" selection-end="2139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/SpecificCateogryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="19" selection-start="940" selection-end="940" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/EditArticlePopup.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="64" selection-start="2490" selection-end="2490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/edit/RedefineArticleMainData.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="32" selection-start="1948" selection-end="1948" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articles/CategoryView.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="23" selection-start="443" selection-end="1200" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flex-client/src/main/flex/no/sqizi/flexclient/view/articlesv2/CategoryViewV2.mxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="7" selection-start="857" selection-end="857" vertical-scroll-proportion="0.5294118">
           <folding />
         </state>
       </provider>
