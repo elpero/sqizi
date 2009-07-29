@@ -1,0 +1,51 @@
+<!DOCTYPE sqlMap
+	PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap  >
+
+
+    <resultMap id="company-result-map" class="no.sqizi.webapp.domain.Company" groupBy="name">
+        <result property="parentName" column="companyParentName"/>
+        <result property="name" column="companyName"/>
+        <result property="articleCategories" resultMap="article-category-result-map"/>
+    </resultMap>
+
+
+
+    <resultMap id="article-category-result-map" class="no.sqizi.webapp.domain.ArticleCategory" groupBy="id">
+        <result property="id" column="articleCategoryId"/>
+        <result property="name" column="articleCategoryName"/>
+        <result property="description" column="articleCategoryDescription"/>
+        <result property="articles" resultMap="article-thumbnail-result-map"/>
+        <result property="parentCategory" column="articleCategoryPatentCategory"/>
+        <result property="companyName" column="articleCategoryCompanyName"/>
+    </resultMap>
+
+    <resultMap id="article-thumbnail-result-map" class="no.sqizi.webapp.domain.ArticleThumbnail">
+        <result property="id" column="articleThumbnailId"/>
+        <result property="authorName" column="articleThumbnailAuthorName"/>
+        <result property="date" column="articleThumbnailDate"/>
+        <result property="title" column="articleThumbnailTitle"/>
+    </resultMap>
+
+
+    
+
+    <select id="getCompanyData" parameterClass="java.lang.String" resultMap="company-result-map">
+
+    SELECT c.name as companyName, c.parent as companyParentName,
+            cat.name as articleCategoryName,
+            cat.description as articleCategoryDescription,
+            cat.parent as articleCategoryPatentCategory,
+            cat.id as articleCategoryId,
+            cat.company as articleCategoryCompanyName,
+            a.id as articleThumbnailId,
+            a.title as articleThumbnailTitle,
+            a.creationdate as articleThumbnailDate,
+            a.author as articleThumbnailAuthorName
+    FROM company c left join category cat on c.name = cat.company left join article a on a.category = cat.id
+    WHERE c.name = #value#;
+    </select>
+
+
+</sqlMap>

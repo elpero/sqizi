@@ -1,0 +1,33 @@
+<!DOCTYPE sqlMap
+	PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN"
+	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
+<sqlMap  >
+
+    <resultMap id="user-simplified-result-map" class="no.sqizi.webapp.domain.User">
+        <result property="firstName" column="firstName"/>
+        <result property="lastName" column="lastName"/>
+        <result property="userName" column="userName"/>
+        <result property="companyName" column="companyName"/>
+    </resultMap>
+
+    <resultMap id="user-result-map" class="no.sqizi.webapp.domain.User" groupBy="userName">
+        <result property="firstName" column="firstName"/>
+        <result property="lastName" column="lastName"/>
+        <result property="userName" column="userName"/>
+        <result property="companyName" column="companyName"/>
+        <result property="authorities" resultMap="authority-result-map" nullValue="null" />
+    </resultMap>
+    <resultMap id="authority-result-map" class="java.lang.String">
+        <result column="authority" property="value"/>
+    </resultMap>
+    <select id="getUser" resultMap="user-result-map" parameterClass="java.util.HashMap">
+        SELECT
+            u.firstname as firstName,
+            u.lastname as lastName,
+            u.username as userName,
+            u.company as companyName,
+            a.authority as authority
+        FROM users u left join authorities a on u.username = a.username
+        WHERE u.username = #userName#;
+    </select>
+</sqlMap>
