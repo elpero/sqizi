@@ -2,7 +2,7 @@
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" creationComplete="handleCreationComplete()"
         alpha="0.8" width="1000" height="650"
         x="{(parentApplication.width - 1000)/2}"
-        y="{(parentApplication.height - 650)/2}"
+        y="{(parentApplication.height - 850)/2}"
         borderStyle="solid"
         borderColor="#000000"
         borderThickness="1"
@@ -35,10 +35,11 @@
         import org.swizframework.Swiz;
 
         [Bindable]
+       [Autowire(bean="articleModel")]
         private var _articleModel:ArticleModel;
 
         private function handleCreationComplete():void {
-             _articleModel = ArticleModel(Swiz.getBean("articleModel"));
+//             _articleModel = ArticleModel(Swiz.getBean("articleModel"));
         }
 
         ]]></mx:Script>

@@ -49,4 +49,21 @@ public class ImageDaoImplTest {
         verify(dao.getTemplate()).insert("addArticleReferenceToImage", i);
         verifyNoMoreInteractions(template);
     }
+    @Test
+    public void testDeleteImage(){
+        final Long imageId = 1L;
+        dao.deleteImage(imageId);
+        verify(dao.getTemplate()).delete("deleteImage", imageId);
+        verifyNoMoreInteractions(dao.getTemplate());
+    }
+
+    @Test
+    public void testGetImageBytes(){
+        final Long imageId = 1L;
+        dao.getImageBytes(imageId);
+        verify(dao.getTemplate()).queryForObject("getImageBytes", imageId);
+        verifyNoMoreInteractions(dao.getTemplate());
+    }
+
+
 }

@@ -27,4 +27,6 @@ public interface ArticleService {
     void updateArticle(Long id, String title, String articleAbstract, String content, User author, Date date);
 
     List<ArticleThumbnail> getRecentArticlesForCompany(int number, String companyName);
+
+    void deleteImage(Long imageId);
 }

@@ -15,8 +15,8 @@
         <mx:ViewStack id="addArticleWizardViewStack" width="100%" height="100%">
             <wizard:DefineArticleMainDataView width="100%" id="mainDataView" article="{newArticle}"/>
             <wizard:ImageUpload width="100%" height="100%" id="imageUploadView" article="{newArticle}"/>
-            <wizard:PlaceImages width="100%" height="100%" id="placeImagesView" article="{newArticle}"/>
-            <wizard:Summary width="100%" height="100%" id="summaryView" article="{newArticle}"/>
+            <!--<wizard:PlaceImages width="100%" height="100%" id="placeImagesView" article="{newArticle}"/>-->
+            <!--<wizard:Summary width="100%" height="100%" id="summaryView" article="{newArticle}"/>-->
         </mx:ViewStack>
         <mx:HBox width="100%" horizontalAlign="right">
         <mx:Button id="prev" label="Previous" click="handlePreviousClick()"/>

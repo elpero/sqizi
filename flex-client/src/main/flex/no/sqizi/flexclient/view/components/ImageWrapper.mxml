@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" borderColor="black" borderStyle="solid" borderThickness="1" verticalGap="0">
+    <mx:Metadata>
+        [Event("deleteImageClick")]
+    </mx:Metadata>
+
+    <mx:HBox width="100%" horizontalAlign="right" >
+        <mx:LinkButton label="x" click="handleDeleteClick()"/>
+    </mx:HBox>
+    <mx:Image source="{image.thumbnailPath}" completeEffect="{new Effects().changeEffect}"/>
+    <mx:Script><![CDATA[
+        import no.sqizi.flexclient.domain.Image;
+        import no.sqizi.flexclient.event.DeleteImageEvent;
+        import no.sqizi.flexclient.view.effects.Effects;
+
+        import org.swizframework.Swiz;
+
+        private function handleDeleteClick():void {
+            dispatchEvent(new Event('deleteImageClick'));
+        }
+
+        private var _image:no.sqizi.flexclient.domain.Image;
+
+        [Bindable]
+        public function get image():no.sqizi.flexclient.domain.Image{
+            return _image;
+        }
+
+        public function set image(value:no.sqizi.flexclient.domain.Image):void {
+            _image = value;
+        }]]></mx:Script>
+</mx:VBox>

@@ -19,6 +19,7 @@
         }
 
         [Autowire(bean="articleModel")]
+        [Bindable]
         public var articleModel:ArticleModel;
 
         ]]></mx:Script>

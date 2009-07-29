@@ -26,6 +26,7 @@
         import mx.containers.Canvas;
         import mx.core.DragSource;
 
+        import mx.core.IUITextField;
         import mx.core.UITextField;
         import mx.core.UITextFormat;
         import mx.events.DragEvent;
@@ -41,12 +42,12 @@
         private function handleDragDrop(event:DragEvent):void {
             var text:MyText = MyText(event.currentTarget);
             var item:Image = Image(TileList(event.dragInitiator).selectedItem);
-            var textField:UITextField = text.getUITextField();
+            var textField:IUITextField = text.getUITextField();
             var index:int = textField.getCharIndexAtPoint(event.localX, event.localY);
             var htmlIndex:int = calculateHtmlPosition(text.htmlText, index);
             var preText:String = text.htmlText.slice(0, htmlIndex);
             var postText:String = text.htmlText.slice(htmlIndex);
-            var insertionText = "<img src=\"" + item.imagePath + "\" width=\"400\" height=\"300\"/>";
+            var insertionText:String = "<img src=\"" + item.imagePath + "\" width=\"400\" height=\"300\"/>";
             var newHtmlText:String = preText + insertionText + postText;
             text.htmlText = newHtmlText;
 
@@ -124,7 +125,7 @@
 
         internal function handleMouseMove(event:MouseEvent):void {
             var dragInitiator:Canvas = new Canvas();
-            var imageSource = event.currentTarget.imagePath;
+            var imageSource:String = event.currentTarget.imagePath;
             var ds:DragSource = new DragSource();
             ds.addData(imageSource, 'imageSource');
             DragManager.doDrag(dragInitiator, ds, event);

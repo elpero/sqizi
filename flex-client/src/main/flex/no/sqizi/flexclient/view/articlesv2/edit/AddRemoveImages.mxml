@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<addarticlewizard:ImageUpload xmlns:mx="http://www.adobe.com/2006/mxml"
+                              xmlns:addarticlewizard="no.sqizi.flexclient.view.articles.addarticlewizard.*"
+                              creationComplete="handleCreationComplete()">
+
+
+    <mx:Script><![CDATA[
+        import mx.binding.utils.BindingUtils;
+        import mx.collections.ArrayCollection;
+
+        import no.sqizi.flexclient.event.GetArticleImagesEvent;
+
+        import org.swizframework.Swiz;
+
+
+        protected override function handleCreationComplete():void {
+            BindingUtils.bindSetter(fetchArticleImages, "articleModel","article");
+            this.article = articleModel.article;
+            super.handleCreationComplete();
+        }
+
+        private function fetchArticleImages(){
+            articleModel.images = new ArrayCollection();
+            var e:GetArticleImagesEvent = new GetArticleImagesEvent(article.id);
+            Swiz.dispatchEvent(e);
+        }
+
+        ]]></mx:Script>
+</addarticlewizard:ImageUpload>

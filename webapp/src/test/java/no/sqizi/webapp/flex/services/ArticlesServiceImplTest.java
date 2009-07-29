@@ -5,10 +5,13 @@ import org.junit.Test;
 import org.junit.Assert;
 import org.junit.runner.RunWith;
 import org.mockito.Mock;
+import static org.mockito.Matchers.isA;
 import static org.mockito.Mockito.verify;
 import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
+import static org.hamcrest.core.IsAnything.any;
 import no.sqizi.webapp.dao.ArticlesDao;
+import no.sqizi.webapp.dao.ImageDao;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
 import no.sqizi.webapp.support.PropertiesSupplier;
@@ -29,6 +32,8 @@ public class ArticlesServiceImplTest {
 
     @Mock
     ArticlesDao dao;
+    @Mock
+    ImageDao imageDao;
 
     @Mock
     PropertiesSupplier appProps;
@@ -39,6 +44,7 @@ public class ArticlesServiceImplTest {
     public void setUp() throws Exception {
         serv = new ArticlesServiceImpl();
         serv.setArticleDao(dao);
+        serv.setImageDao(imageDao);
         serv.setAppProps(appProps);
     }
 
@@ -79,6 +85,7 @@ public class ArticlesServiceImplTest {
         final String imagesRoot = "/images/";
         when(serv.getAppProps().getProperty("images.root.url")).thenReturn(imagesRoot);
         when(dao.getArticleImageIds(articleId)).thenReturn(Arrays.asList(imageTO1, imageTO2));
+        when(imageDao.getImageBytes(isA(Long.class))).thenReturn(new byte[0]);
         List<ImageTO> list= serv.getArticleImages(articleId);
         Assert.assertEquals("/images/1/one.jpg",list.get(0).getImagePath());
         Assert.assertEquals("/images/1/two.png",list.get(1).getImagePath());
@@ -92,6 +99,14 @@ public class ArticlesServiceImplTest {
         serv.updateArticle(1L,"title","abstract", "content", author, date);
         verify(serv.getArticleDao()).updateArticle(1L, "title","abstract","content", author, date);
         verifyNoMoreInteractions(serv.getArticleDao());
+    }
+
+    @Test
+    public void testDeleteImage(){
+        final Long imageId = 1L;
+        serv.deleteImage(imageId);
+        verify(imageDao).deleteImage(imageId);
+        verifyNoMoreInteractions(imageDao);
     }
     
 

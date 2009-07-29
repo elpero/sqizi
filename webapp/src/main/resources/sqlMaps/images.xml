@@ -3,6 +3,9 @@
 	"http://ibatis.apache.org/dtd/sql-map-2.dtd">
 <sqlMap  >
 
+    <!--<resultMap id="image-bytes-result-map" class="java.lang.Object">-->
+        <!--<result property="any" column="data" jdbcType="BLOB"/>-->
+    <!--</resultMap>-->
 
 
     <insert id="insertArticleImage" parameterClass="no.sqizi.webapp.domain.ArticleImage">
@@ -23,8 +26,14 @@
     </insert>
 
     <insert id="addArticleReferenceToImage" parameterClass="no.sqizi.webapp.domain.ArticleImage">
-        INSERT INTO  article_image(article, image) values (#articleId#, #id#)
+        INSERT INTO  ARTICLE_IMAGE(ARTICLE, IMAGE) VALUES (#articleId#, #id#)
     </insert>
 
+    <delete id="deleteImage" parameterClass="java.lang.Long">
+        DELETE FROM IMAGE WHERE ID=#value#
+    </delete>
+    <select id="getImageBytes" parameterClass="java.lang.Long" resultClass="Object">
+       SELECT I.DATA as data FROM IMAGE I WHERE I.ID=#value#;
+    </select>
 
 </sqlMap>

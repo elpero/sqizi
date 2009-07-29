@@ -3,6 +3,7 @@ package no.sqizi.webapp.flex.services;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import no.sqizi.webapp.dao.ArticlesDao;
+import no.sqizi.webapp.dao.ImageDao;
 import no.sqizi.webapp.domain.Article;
 import no.sqizi.webapp.domain.ImageTO;
 import no.sqizi.webapp.domain.User;
@@ -12,6 +13,10 @@ import no.sqizi.webapp.support.PropertiesSupplier;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Date;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * Created by IntelliJ IDEA.
@@ -25,6 +30,10 @@ public class ArticlesServiceImpl implements ArticleService {
 
     @Autowired
     private ArticlesDao articleDao;
+
+    @Autowired
+    private ImageDao imageDao;
+
      @Autowired
     private PropertiesSupplier appProps;
 
@@ -34,6 +43,14 @@ public class ArticlesServiceImpl implements ArticleService {
 
     public void setAppProps(PropertiesSupplier appProps) {
         this.appProps = appProps;
+    }
+
+    public ImageDao getImageDao() {
+        return imageDao;
+    }
+
+    public void setImageDao(ImageDao imageDao) {
+        this.imageDao = imageDao;
     }
 
     @Override
@@ -65,6 +82,26 @@ public class ArticlesServiceImpl implements ArticleService {
             i.setImagePath(String.format("%s/%s.%s",imagesRoot,i.getImageName(),i.getImageType()));
             i.setThumbnailPath(String.format("%s/%s_thumb.%s",imagesRoot,i.getImageName(),i.getImageType()));
         }
+        String imageDir = appProps.getProperty("images.directory")+articleId;
+        final File dir = new File(imageDir);
+        if (!dir.exists()) {
+            new File(imageDir).mkdirs();
+        }
+        for (ImageTO i:images){
+            final File imageFile = new File(String.format("%s/%s.%s", imageDir, i.getImageName(), i.getImageType()));
+            if(!imageFile.exists()){
+                try {
+                    imageFile.createNewFile();
+                    FileOutputStream fos = new FileOutputStream(imageFile);
+                    final byte[] imageBytes = imageDao.getImageBytes(i.getImageId());
+                    fos.write(imageBytes);
+                    fos.close();
+                } catch (IOException e) {
+                    e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+                }
+            }
+        }
+
         return images;
     }
 
@@ -78,4 +115,10 @@ public class ArticlesServiceImpl implements ArticleService {
         return articleDao.getRecentArticlesForCompany(number, companyName);
 
     }
+
+    @Override
+    public void deleteImage(Long imageId){
+        imageDao.deleteImage(imageId); 
+    }
+
 }

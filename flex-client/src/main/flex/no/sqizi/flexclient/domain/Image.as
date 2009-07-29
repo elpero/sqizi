@@ -6,13 +6,13 @@ public class Image {
     public function Image() {
     }
 
-    public var imageId;
-    public var imagePath;
-    public var thumbnailPath;
-    public var articleId;
-    public var imageDescription;
-    public var imageType;
-    public var imageName;
+    public var imageId:int;
+    public var imagePath:String;
+    public var thumbnailPath:String;
+    public var articleId:int;
+    public var imageDescription:String;
+    public var imageType:String;
+    public var imageName:String;
 
     
 }

@@ -12,6 +12,7 @@ import no.sqizi.flexclient.delegate.ArticleDelegate;
 import no.sqizi.flexclient.domain.Article;
 import no.sqizi.flexclient.event.AddArticleEvent;
 import no.sqizi.flexclient.event.AddCategoryEvent;
+import no.sqizi.flexclient.event.DeleteImageEvent;
 import no.sqizi.flexclient.event.GetArticleImagesEvent;
 import no.sqizi.flexclient.event.GetRecentArticlesEvent;
 import no.sqizi.flexclient.event.LoadArticleEvent;
@@ -45,7 +46,12 @@ public class ArticleController extends AbstractController{
         Swiz.addEventListener(GetArticleImagesEvent.TYPE, getImages);
         Swiz.addEventListener(UpdateArticleEvent.TYPE, updateArticles);
         Swiz.addEventListener(GetRecentArticlesEvent.TYPE, getRecentArticles);
+        Swiz.addEventListener(DeleteImageEvent.TYPE, deleteImage);
 
+    }
+
+    private function deleteImage(e:DeleteImageEvent):void {
+        articleDelegate.deleteImage(e.imageId).addResponder(new DeleteImageResponder());
     }
 
     private function getRecentArticles(e:GetRecentArticlesEvent):void {
@@ -114,6 +120,7 @@ public class ArticleController extends AbstractController{
     private function loadArticle(event:LoadArticleEvent):void {
         articleDelegate.getArticle(event.id).addResponder(
                 new AsyncResponder(handleLoadSuccess, handleLoadFailure));
+        getImages(new GetArticleImagesEvent(event.id));
     }
 
     private function handleLoadSuccess(event:ResultEvent, token:Object = null) :void{

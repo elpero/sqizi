@@ -13,4 +13,8 @@ public interface ImageDao {
     void saveArticleImage(ArticleImage i);
 
     void addArticleReferenceToImage(ArticleImage i);
+
+    void deleteImage(Long id);
+
+    byte[] getImageBytes(Long imageId);
 }

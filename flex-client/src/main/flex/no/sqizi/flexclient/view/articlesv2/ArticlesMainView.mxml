@@ -3,7 +3,8 @@
          xmlns:articles="no.sqizi.flexclient.view.articles.*"
          xmlns:articlesv2="no.sqizi.flexclient.view.articlesv2.*"
          height="100%"
-         width="100%">
+         width="100%"
+        creationComplete="handleCreationComplete()">
     <mx:HBox width="100%" visible="{userModel.loggedInUser.authorities.contains('ROLE_ADMIN')}">
         <mx:LinkButton id="addCategoryLink" label="Add Category" click="addCategory()"/>
         <mx:LinkButton id="addArticleLink" label="Add Article" click="addArticle()"/>
@@ -30,7 +31,7 @@
                                              width="100%"/>
 
         </mx:VBox>
-        <mx:VBox width="50%" height="100%">
+        <mx:VBox width="50%" height="100%" maxWidth="{this.width / 2}">
             <articlesv2:ArticleView id="article"
                                     height="100%"
                                     width="100%"/>
@@ -38,15 +39,30 @@
         </mx:VBox>
     </mx:HBox>
     <mx:Script><![CDATA[
+        import mx.binding.utils.BindingUtils;
         import mx.managers.PopUpManager;
 
         import no.sqizi.flexclient.domain.ArticleCategoryTreeElement;
+        import no.sqizi.flexclient.event.GetCompanyDataEvent;
         import no.sqizi.flexclient.helper.CategoryTreeDataDescriptor;
         import no.sqizi.flexclient.model.CompanyModel;
         import no.sqizi.flexclient.model.UserModel;
         import no.sqizi.flexclient.view.articles.AddCategoryView;
+        import no.sqizi.flexclient.view.articles.ArticlesMainView;
         import no.sqizi.flexclient.view.articles.addarticlewizard.AddArticleView;
 
+        import org.swizframework.Swiz;
+
+
+        private function refresh(event:Event = null):void {
+            Swiz.dispatchEvent(new GetCompanyDataEvent(companyModel.currentCompanyData.name));
+        }
+
+        private function handleCreationComplete():void {
+            Swiz.addEventListener(
+                    no.sqizi.flexclient.view.articles.ArticlesMainView.ARTICLE_OR_CATEGORY_ADDED_MSG,
+                    refresh);
+        }
 
         private function addArticle():void {
             var addArticleView:AddArticleView = new AddArticleView();

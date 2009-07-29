@@ -4,21 +4,23 @@
                 xmlns:wizard="no.sqizi.flexclient.view.articles.addarticlewizard.*"
                 alpha="1"
                 width="1200"
-                height="700"
+                height="650"
                 showCloseButton="true"
                 close="PopUpManager.removePopUp(this)"
-                creationComplete="handleCreationComplete()" xmlns:edit="no.sqizi.flexclient.view.articlesv2.edit.*">
+                creationComplete="handleCreationComplete()" xmlns:edit="no.sqizi.flexclient.view.articlesv2.edit.*"
+                xmlns:helper="no.sqizi.flexclient.view.helper.*">
     <mx:VBox width="100%"
              height="100%"
              horizontalAlign="center"
              verticalAlign="middle">
-        <mx:ViewStack id="addArticleWizardViewStack" width="100%" height="100%">
+        <mx:ViewStack id="editArticleWizardViewStack" width="100%" height="100%" selectedIndex="0">
+            <helper:PleaseWaitScreen/>
             <edit:RedefineArticleMainData article="{_article}"/>
+            <edit:AddRemoveImages article="{_article}"/>
         </mx:ViewStack>
         <mx:HBox width="100%" horizontalAlign="right">
-            <mx:Button id="prev" label="Previous" click="handlePreviousClick()"/>
-
-            <mx:Button id="next" label="Next" click="handleNextClick()"/>
+            <mx:Button id="prev" label="Previous" click="handlePreviousClick()" enabled="{_article != null}"/>
+            <mx:Button id="next" label="Next" click="handleNextClick()" enabled="{_article != null}"/>
         </mx:HBox>
 
     </mx:VBox>
@@ -28,6 +30,7 @@
 
         import mx.utils.ObjectUtil;
 
+        import no.sqizi.flexclient.domain.Article;
         import no.sqizi.flexclient.helper.WizardStep;
         import no.sqizi.flexclient.model.ArticleModel;
         import no.sqizi.flexclient.model.CompanyModel;
@@ -35,8 +38,8 @@
         import org.swizframework.Swiz;
 
         private function handlePreviousClick():void {
-            if (addArticleWizardViewStack.selectedIndex > 0) {
-                addArticleWizardViewStack.selectedIndex--;
+            if (editArticleWizardViewStack.selectedIndex > 0) {
+                editArticleWizardViewStack.selectedIndex--;
             }
 
         }
@@ -44,8 +47,8 @@
         public static const READY_TO_MOVE_NEXT_MESSAGE:String = "ready";
 
         private function switchView(e:Event = null):void {
-            if (addArticleWizardViewStack.selectedIndex < addArticleWizardViewStack.getChildren().length - 1) {
-                addArticleWizardViewStack.selectedIndex++;
+            if (editArticleWizardViewStack.selectedIndex < editArticleWizardViewStack.getChildren().length - 1) {
+                editArticleWizardViewStack.selectedIndex++;
             } else {
                 PopUpManager.removePopUp(this);
             }
@@ -54,16 +57,25 @@
 
         private function handleArticleModelChange(value:* = null):void {
 
-            this._article = ObjectUtil.copy(articleModel.article);
+            this._article = Article(ObjectUtil.copy(articleModel.article));
+            if (_article != null) {
+                 editArticleWizardViewStack.selectedIndex = 1;
+            } else {
+                editArticleWizardViewStack.selectedIndex = 0;
+            }
+
         }
 
         private function handleCreationComplete():void {
+            if (articleModel.article != null) {
+                _article = Article(ObjectUtil.copy(articleModel.article));
+            }
             Swiz.addEventListener(READY_TO_MOVE_NEXT_MESSAGE, switchView);
             BindingUtils.bindSetter(handleArticleModelChange, articleModel, "article");
         }
 
-        private function handleNextClick() {
-            (addArticleWizardViewStack.selectedChild as WizardStep).moveToTheNextView();
+        private function handleNextClick():void {
+            (editArticleWizardViewStack.selectedChild as WizardStep).moveToTheNextView();
         }
 
 
@@ -72,7 +84,7 @@
         public var companyModel:CompanyModel;
 
         [Bindable]
-        private var _article = ObjectUtil.copy(articleModel.article);
+        private var _article:Article;
 
 
         [Autowire(bean="articleModel")]

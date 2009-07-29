@@ -28,6 +28,7 @@ public class ArticleCategoryTree {
         return _idToElemMap[id];
     }
 
+    [Bindable]
     public function get roots():ArrayCollection {
         return _roots;
     }

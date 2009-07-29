@@ -36,4 +36,17 @@ public class ImageDaoImpl implements ImageDao {
     public void addArticleReferenceToImage(ArticleImage i) {
        template.insert("addArticleReferenceToImage",i);     
     }
+
+    @Override
+    public void deleteImage(Long id){
+        template.delete("deleteImage", id);
+    }
+
+    @Override
+    public byte[] getImageBytes(Long imageId) {
+        final Object o = template.queryForObject("getImageBytes", imageId);
+        return (byte[]) o;
+
+//        return new byte[0];  //To change body of implemented methods use File | Settings | File Templates.
+    }
 }

@@ -24,7 +24,7 @@
                 </mx:Component>
             </mx:itemRenderer>
         </mx:List>
-
+    </mx:VBox>
 
     <mx:Script><![CDATA[
         import mx.binding.utils.BindingUtils;
@@ -45,10 +45,12 @@
 
         function editArticle(id:int):void {
             Swiz.dispatchEvent(new LoadArticleEvent(id));
-            PopUpManager.addPopUp(new EditArticlePopup(), this, true);
+            var editArticlePopup:EditArticlePopup = new EditArticlePopup();
+            PopUpManager.addPopUp(editArticlePopup, this, true);
+            PopUpManager.centerPopUp(editArticlePopup);
         }
 
-        private function displayFullArticle(id:int):void {
+        internal function displayFullArticle(id:int):void {
             Swiz.dispatchEvent(new LoadArticleEvent(id));
         }
 
@@ -60,9 +62,6 @@
             BindingUtils.bindSetter(handleChange, this, "category");
         }
 
-        private function handleMenuItemClick(event: MenuEvent):void {
-            Swiz.dispatchEvent(new DisplaySpecificCategoryEvent(event.item.id));
-        }
 
         [Autowire(bean="companyModel")]
         [Bindable]

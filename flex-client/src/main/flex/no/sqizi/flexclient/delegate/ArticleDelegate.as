@@ -37,5 +37,9 @@ public class ArticleDelegate {
     public function getRecentArticles(number:int, companyName:String):AsyncToken{
         return articleService.getRecentArticlesForCompany(number, companyName);
     }
+
+    public function deleteImage(imageId:int):AsyncToken {
+        return articleService.deleteImage(imageId);
+    }
 }
 }

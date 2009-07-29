@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml" implements="no.sqizi.flexclient.helper.WizardStep"
-         creationComplete="handleCreationComplete()">
+         creationComplete="handleCreationComplete()"
+        xmlns:components="no.sqizi.flexclient.view.components.*">
     <mx:HBox width="100%">
         <mx:Text text="Select image to upload"></mx:Text>
         <mx:Button label="Select..." click="showFileSelect()"/>
@@ -11,7 +12,8 @@
     <mx:Button label="Upload" click="upload()"/>
     <mx:Tile>
         <mx:Repeater id="imageRep" dataProvider="{articleModel.images}">
-            <mx:Image source="{imageRep.currentItem.thumbnailPath}"/>
+            <!--TODO: wrap this in item renderer allowing image deletion-->
+            <components:ImageWrapper image="{imageRep.currentItem}" deleteImageClick="handleDeleteImageClick(event)"/>
         </mx:Repeater>
     </mx:Tile>
 
@@ -23,8 +25,11 @@
         import mx.managers.PopUpManager;
 
         import no.sqizi.flexclient.domain.Article;
+        import no.sqizi.flexclient.domain.Image;
         import no.sqizi.flexclient.event.AddArticleEvent;
+        import no.sqizi.flexclient.event.DeleteImageEvent;
         import no.sqizi.flexclient.event.GetArticleImagesEvent;
+        import no.sqizi.flexclient.event.ImageDeletedEvent;
         import no.sqizi.flexclient.model.ArticleModel;
         import no.sqizi.flexclient.model.CompanyModel;
 
@@ -36,13 +41,14 @@
         }
 
         private function startUpdateImagesTimer():void {
-            var t:Timer = new Timer(5000,1);
-            t.addEventListener(TimerEvent.TIMER, updateImageList)
+            var t:Timer = new Timer(12000, 1);
+            t.addEventListener(TimerEvent.TIMER, updateImageList);
             t.start();
         }
 
-        private function handleCreationComplete():void {
-            startUpdateImagesTimer()
+        protected function handleCreationComplete():void {
+            startUpdateImagesTimer();
+            Swiz.addEventListener(ImageDeletedEvent.TYPE, updateImageList);
         }
 
         private function removeSelectedFiles():void {
@@ -59,6 +65,14 @@
         private function handleIOError(e:IOErrorEvent):void {
         }
 
+
+        private function handleDeleteImageClick(e:Event = null) {
+            var image:Image = e.currentTarget.image;
+            Swiz.dispatchEvent(new DeleteImageEvent(image.imageId));
+            var regexp:RegExp = new RegExp("<img.*src=\""+image.imagePath+"\"[^>]*>", "gi");
+            article.content = article.content.replace(regexp, "");
+        }
+
         private function upload():void {
             for each (var f:FileReference in _selectedFiles) {
                 f.addEventListener(Event.COMPLETE, handleComplete);
@@ -73,11 +87,14 @@
             }
             _selectedFiles.removeAll();
             startUpdateImagesTimer();
+            
 
         }
 
         private var _refAddFiles:FileReferenceList;
-        private var _selectedFiles:ArrayCollection = new ArrayCollection();
+
+        [Bindable]
+        protected var _selectedFiles:ArrayCollection = new ArrayCollection();
 
         private function fileWithTheSameNameAlreadySelected(name:String):Boolean {
             for each (var f:FileReference in _selectedFiles) {
