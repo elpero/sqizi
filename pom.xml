@@ -331,6 +331,6 @@
         <commons-fileupload-version>1.2.1</commons-fileupload-version>
         <commons-dbcp-version>1.2.2</commons-dbcp-version>
         <log4j-version>1.2.15</log4j-version>
-        <xalan-version>2.7.1</xalan-version>
+        <xalan-version>2.7.2</xalan-version>
     </properties>
 </project>
